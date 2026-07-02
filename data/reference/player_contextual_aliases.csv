@@ -1,0 +1,26 @@
+alias,context_terms,player_id,player_name,position,player_name_norm
+martinez,"['argentina', 'dibu', 'keeper', 'goalkeeper', 'save', 'penalty']",3,Emiliano Martinez,Goalkeeper,emiliano martinez
+walker,"['england', 'man city', 'city', 'mbappe', 'france']",7,Kyle Walker,Defender,kyle walker
+shaw,"['england', 'man utd', 'united', 'left back']",8,Luke Shaw,Defender,luke shaw
+dias,"['portugal', 'man city', 'city']",10,Rúben Dias,Defender,ruben dias
+silva,"['chelsea', 'psg', 'brazil', 'defender']",11,Thiago Silva,Defender,thiago silva
+bernardo,"['portugal', 'man city', 'city']",13,Bernardo Silva,Midfielder,bernardo silva
+silva,"['portugal', 'man city', 'city']",13,Bernardo Silva,Midfielder,bernardo silva
+bruno,"['portugal', 'fernandes', 'man utd', 'united']",14,Bruno Fernandes,Midfielder,bruno fernandes
+fernandes,"['portugal', 'bruno', 'man utd', 'united']",14,Bruno Fernandes,Midfielder,bruno fernandes
+case,"['brazil', 'fernandes', 'man utd', 'united']",15,Casemiro,Midfielder,casemiro
+rice,"['declan', 'england', 'arsenal', 'west ham']",16,Declan Rice,Midfielder,declan rice
+cama,"['real', 'rm', 'france', 'mbappe']",17,Eduardo Camavinga,Midfielder,eduardo camavinga
+enzo,"['argentina', 'fernandez', 'chelsea']",18,Enzo Fernández,Midfielder,enzo fernandez
+fernandez,"['argentina', 'enzo', 'chelsea']",18,Enzo Fernández,Midfielder,enzo fernandez
+jude,"['bvb', 'dortmund', 'bee', 'england']",20,Jude Bellingham,Midfielder,jude bellingham
+luka,"['real', 'madrid', 'croatia', 'midfield', 'goat', 'maestro']",22,Luka Modrić,Midfielder,luka modric
+mount,"['mason', 'england', 'chelsea', 'lampard', 'tuchel']",23,Mason Mount,Midfielder,mason mount
+goat,"['ronaldo', 'cr7', 'cristiano', 'portugal']",29,Cristiano Ronaldo,Forward,cristiano ronaldo
+cris,"['ronaldo', 'cr7', 'portugal']",29,Cristiano Ronaldo,Forward,cristiano ronaldo
+hazard,"['eden', 'belgium', 'chelsea', 'real', 'madrid']",30,Eden Hazard,Forward,eden hazard
+kylian,"['mbappe', 'france', 'psg']",36,Kylian Mbappé,Forward,kylian mbappe
+leo,"['messi', 'argentina', 'albiceleste', 'lm10']",37,Lionel Messi,Forward,lionel messi
+goat,"['messi', 'leo', 'argentina', 'albiceleste', 'lm10']",37,Lionel Messi,Forward,lionel messi
+ney,"['brazil', 'neymar', 'psg']",39,Neymar,Forward,neymar
+son,"['korea', 'south korea', 'tottenham', 'spurs']",44,Son Heung-min,Forward,son heung min

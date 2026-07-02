@@ -1,0 +1,47 @@
+player_id,player_name,position,player_name_norm
+0,Aaron Ramsdale,Goalkeeper,aaron ramsdale
+1,Alisson,Goalkeeper,alisson
+2,Ederson,Goalkeeper,ederson
+3,Emiliano Martinez,Goalkeeper,emiliano martinez
+4,Thibaut Courtois,Goalkeeper,thibaut courtois
+5,Antonio Rüdiger,Defender,antonio rudiger
+6,João Cancelo,Defender,joao cancelo
+7,Kyle Walker,Defender,kyle walker
+8,Luke Shaw,Defender,luke shaw
+9,Nathan Aké,Defender,nathan ake
+10,Rúben Dias,Defender,ruben dias
+11,Thiago Silva,Defender,thiago silva
+12,Trent Alexander-Arnold,Defender,trent alexander arnold
+13,Bernardo Silva,Midfielder,bernardo silva
+14,Bruno Fernandes,Midfielder,bruno fernandes
+15,Casemiro,Midfielder,casemiro
+16,Declan Rice,Midfielder,declan rice
+17,Eduardo Camavinga,Midfielder,eduardo camavinga
+18,Enzo Fernández,Midfielder,enzo fernandez
+19,İlkay Gündoğan,Midfielder,ilkay gundogan
+20,Jude Bellingham,Midfielder,jude bellingham
+21,Kevin De Bruyne,Midfielder,kevin de bruyne
+22,Luka Modrić,Midfielder,luka modric
+23,Mason Mount,Midfielder,mason mount
+24,Moisés Caicedo,Midfielder,moises caicedo
+25,Pedri,Midfielder,pedri
+26,Rodri,Midfielder,rodri
+27,Rodrigo De Paul,Midfielder,rodrigo de paul
+28,Bukayo Saka,Forward,bukayo saka
+29,Cristiano Ronaldo,Forward,cristiano ronaldo
+30,Eden Hazard,Forward,eden hazard
+31,Harry Kane,Forward,harry kane
+32,Jack Grealish,Forward,jack grealish
+33,Julián Álvarez,Forward,julian alvarez
+34,Kaoru Mitoma,Forward,kaoru mitoma
+35,Karim Benzema,Forward,karim benzema
+36,Kylian Mbappé,Forward,kylian mbappe
+37,Lionel Messi,Forward,lionel messi
+38,Marcus Rashford,Forward,marcus rashford
+39,Neymar,Forward,neymar
+40,Olivier Giroud,Forward,olivier giroud
+41,Rafael Leão,Forward,rafael leao
+42,Robert Lewandowski,Forward,robert lewandowski
+43,Sadio Mané,Forward,sadio mane
+44,Son Heung-min,Forward,son heung min
+45,Vinícius Júnior,Forward,vinicius junior

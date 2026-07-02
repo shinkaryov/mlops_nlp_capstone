@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Env
+.env
+
+# Label Studio local database/storage
+label_studio_data/
+mydata/
+
+# DVC cache
+.dvc/cache/
+
+# Large data is tracked by DVC, not Git
+data/raw/**
+data/interim/**
+data/labeled/**
+data/processed/**
+
+# But allow small reference configs and labeling configs
+!data/reference/
+!data/reference/**
+!data/labeling/
+!data/labeling/tasks/
+!data/labeling/tasks/*.json
+!data/labeling/tasks/*.jsonl
+
+# Models/artifacts
+models/
+artifacts/

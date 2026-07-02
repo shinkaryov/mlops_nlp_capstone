@@ -1,0 +1,43 @@
+<View>
+  <Header value="FanPulse: Player-level Fan Impression Labeling"/>
+
+  <Header value="Tweet"/>
+  <Text name="tweet" value="$text"/>
+
+  <Header value="Candidate player"/>
+  <Text name="candidate_player" value="$candidate_player"/>
+
+  <Header value="Metadata"/>
+  <Text name="source_file" value="Source: $source_file"/>
+  <Text name="match_method" value="Match method: $match_method"/>
+  <Text name="matched_aliases" value="Matched aliases: $matched_aliases"/>
+
+  <Header value="Is this tweet actually about the candidate player?"/>
+  <Choices name="is_about_player" toName="tweet" choice="single" required="true">
+    <Choice value="yes"/>
+    <Choice value="no"/>
+    <Choice value="unclear"/>
+  </Choices>
+
+  <Header value="Fan impression toward this player"/>
+  <Choices name="impression" toName="tweet" choice="single" required="true">
+    <Choice value="strong_positive"/>
+    <Choice value="positive"/>
+    <Choice value="neutral"/>
+    <Choice value="negative"/>
+    <Choice value="strong_negative"/>
+    <Choice value="not_about_player"/>
+  </Choices>
+
+  <Header value="Optional: why?"/>
+  <Choices name="reason" toName="tweet" choice="multiple">
+    <Choice value="performance"/>
+    <Choice value="goal_or_assist"/>
+    <Choice value="mistake"/>
+    <Choice value="hype"/>
+    <Choice value="comparison"/>
+    <Choice value="meme_or_joke"/>
+    <Choice value="news_context"/>
+    <Choice value="other"/>
+  </Choices>
+</View>

@@ -1,134 +1,133 @@
 alias,player_id,player_name,position,player_name_norm
-aaronramsdale,0,Aaron Ramsdale,Goalkeeper,aaron ramsdale
 aaron ramsdale,0,Aaron Ramsdale,Goalkeeper,aaron ramsdale
 ramsdale,0,Aaron Ramsdale,Goalkeeper,aaron ramsdale
-alisson becker,1,Alisson,Goalkeeper,alisson
+aaronramsdale,0,Aaron Ramsdale,Goalkeeper,aaron ramsdale
 alisson,1,Alisson,Goalkeeper,alisson
+alisson becker,1,Alisson,Goalkeeper,alisson
 alissonbecker,1,Alisson,Goalkeeper,alisson
 ederson,2,Ederson,Goalkeeper,ederson
 emiliano martinez,3,Emiliano Martinez,Goalkeeper,emiliano martinez
-emi martinez,3,Emiliano Martinez,Goalkeeper,emiliano martinez
 dibu martinez,3,Emiliano Martinez,Goalkeeper,emiliano martinez
-emilianomartinez,3,Emiliano Martinez,Goalkeeper,emiliano martinez
 dibu,3,Emiliano Martinez,Goalkeeper,emiliano martinez
-courtois,4,Thibaut Courtois,Goalkeeper,thibaut courtois
+emilianomartinez,3,Emiliano Martinez,Goalkeeper,emiliano martinez
+emi martinez,3,Emiliano Martinez,Goalkeeper,emiliano martinez
 thibaut courtois,4,Thibaut Courtois,Goalkeeper,thibaut courtois
+courtois,4,Thibaut Courtois,Goalkeeper,thibaut courtois
 thibautcourtois,4,Thibaut Courtois,Goalkeeper,thibaut courtois
 tonyrudiger,5,Antonio Rüdiger,Defender,antonio rudiger
-rudiger,5,Antonio Rüdiger,Defender,antonio rudiger
-antoniorudiger,5,Antonio Rüdiger,Defender,antonio rudiger
 antonio rudiger,5,Antonio Rüdiger,Defender,antonio rudiger
+antoniorudiger,5,Antonio Rüdiger,Defender,antonio rudiger
+rudiger,5,Antonio Rüdiger,Defender,antonio rudiger
 tony rudiger,5,Antonio Rüdiger,Defender,antonio rudiger
 joao cancelo,6,João Cancelo,Defender,joao cancelo
-cancelo,6,João Cancelo,Defender,joao cancelo
 joaocancelo,6,João Cancelo,Defender,joao cancelo
-kyle walker,7,Kyle Walker,Defender,kyle walker
+cancelo,6,João Cancelo,Defender,joao cancelo
 kylewalker,7,Kyle Walker,Defender,kyle walker
-luke shaw,8,Luke Shaw,Defender,luke shaw
+kyle walker,7,Kyle Walker,Defender,kyle walker
 lukeshaw,8,Luke Shaw,Defender,luke shaw
+luke shaw,8,Luke Shaw,Defender,luke shaw
+nathanake,9,Nathan Aké,Defender,nathan ake
 nathan ake,9,Nathan Aké,Defender,nathan ake
 ake,9,Nathan Aké,Defender,nathan ake
-nathanake,9,Nathan Aké,Defender,nathan ake
 ruben dias,10,Rúben Dias,Defender,ruben dias
 rubendias,10,Rúben Dias,Defender,ruben dias
 thiago silva,11,Thiago Silva,Defender,thiago silva
 thiagosilva,11,Thiago Silva,Defender,thiago silva
-trent,12,Trent Alexander-Arnold,Defender,trent alexander arnold
 trent alexander arnold,12,Trent Alexander-Arnold,Defender,trent alexander arnold
 alexander arnold,12,Trent Alexander-Arnold,Defender,trent alexander arnold
+trent,12,Trent Alexander-Arnold,Defender,trent alexander arnold
 taa,12,Trent Alexander-Arnold,Defender,trent alexander arnold
-bernardo silva,13,Bernardo Silva,Midfielder,bernardo silva
 bernardosilva,13,Bernardo Silva,Midfielder,bernardo silva
+bernardo silva,13,Bernardo Silva,Midfielder,bernardo silva
 bruno fernandes,14,Bruno Fernandes,Midfielder,bruno fernandes
 casemiro,15,Casemiro,Midfielder,casemiro
-declanrice,16,Declan Rice,Midfielder,declan rice
 declan rice,16,Declan Rice,Midfielder,declan rice
-eduardo camavinga,17,Eduardo Camavinga,Midfielder,eduardo camavinga
+declanrice,16,Declan Rice,Midfielder,declan rice
 eduardocamavinga,17,Eduardo Camavinga,Midfielder,eduardo camavinga
+eduardo camavinga,17,Eduardo Camavinga,Midfielder,eduardo camavinga
 camavinga,17,Eduardo Camavinga,Midfielder,eduardo camavinga
-enzofernandez,18,Enzo Fernández,Midfielder,enzo fernandez
 enzo fernandez,18,Enzo Fernández,Midfielder,enzo fernandez
-ilkaygundogan,19,İlkay Gündoğan,Midfielder,ilkay gundogan
+enzofernandez,18,Enzo Fernández,Midfielder,enzo fernandez
 ilkay gundogan,19,İlkay Gündoğan,Midfielder,ilkay gundogan
+ilkaygundogan,19,İlkay Gündoğan,Midfielder,ilkay gundogan
 gundogan,19,İlkay Gündoğan,Midfielder,ilkay gundogan
-jude bellingham,20,Jude Bellingham,Midfielder,jude bellingham
 judebellingham,20,Jude Bellingham,Midfielder,jude bellingham
 bellingham,20,Jude Bellingham,Midfielder,jude bellingham
-kevin de bruyne,21,Kevin De Bruyne,Midfielder,kevin de bruyne
+jude bellingham,20,Jude Bellingham,Midfielder,jude bellingham
 kevindebruyne,21,Kevin De Bruyne,Midfielder,kevin de bruyne
+kdb,21,Kevin De Bruyne,Midfielder,kevin de bruyne
+kevin de bruyne,21,Kevin De Bruyne,Midfielder,kevin de bruyne
 de bruyne,21,Kevin De Bruyne,Midfielder,kevin de bruyne
 debruyne,21,Kevin De Bruyne,Midfielder,kevin de bruyne
-kdb,21,Kevin De Bruyne,Midfielder,kevin de bruyne
-lukamodric,22,Luka Modrić,Midfielder,luka modric
-luka modric,22,Luka Modrić,Midfielder,luka modric
 modric,22,Luka Modrić,Midfielder,luka modric
+luka modric,22,Luka Modrić,Midfielder,luka modric
+lukamodric,22,Luka Modrić,Midfielder,luka modric
 mason mount,23,Mason Mount,Midfielder,mason mount
 masonmount,23,Mason Mount,Midfielder,mason mount
-moisescaicedo,24,Moisés Caicedo,Midfielder,moises caicedo
 moises caicedo,24,Moisés Caicedo,Midfielder,moises caicedo
 caicedo,24,Moisés Caicedo,Midfielder,moises caicedo
+moisescaicedo,24,Moisés Caicedo,Midfielder,moises caicedo
 pedri,25,Pedri,Midfielder,pedri
 rodri,26,Rodri,Midfielder,rodri
+rodrigo de paul,27,Rodrigo De Paul,Midfielder,rodrigo de paul
 de paul,27,Rodrigo De Paul,Midfielder,rodrigo de paul
 depaul,27,Rodrigo De Paul,Midfielder,rodrigo de paul
-rodrigo de paul,27,Rodrigo De Paul,Midfielder,rodrigo de paul
-bukayosaka,28,Bukayo Saka,Forward,bukayo saka
 bukayo saka,28,Bukayo Saka,Forward,bukayo saka
 saka,28,Bukayo Saka,Forward,bukayo saka
+bukayosaka,28,Bukayo Saka,Forward,bukayo saka
 ronaldo,29,Cristiano Ronaldo,Forward,cristiano ronaldo
-cr7,29,Cristiano Ronaldo,Forward,cristiano ronaldo
-cristiano ronaldo,29,Cristiano Ronaldo,Forward,cristiano ronaldo
 cristiano,29,Cristiano Ronaldo,Forward,cristiano ronaldo
+cristiano ronaldo,29,Cristiano Ronaldo,Forward,cristiano ronaldo
+cr7,29,Cristiano Ronaldo,Forward,cristiano ronaldo
 eden hazard,30,Eden Hazard,Forward,eden hazard
 edenhazard,30,Eden Hazard,Forward,eden hazard
-harrykane,31,Harry Kane,Forward,harry kane
 harry kane,31,Harry Kane,Forward,harry kane
 kane,31,Harry Kane,Forward,harry kane
-grealish,32,Jack Grealish,Forward,jack grealish
-jack grealish,32,Jack Grealish,Forward,jack grealish
+harrykane,31,Harry Kane,Forward,harry kane
 jackgrealish,32,Jack Grealish,Forward,jack grealish
-julian alvarez,33,Julián Álvarez,Forward,julian alvarez
+jack grealish,32,Jack Grealish,Forward,jack grealish
+grealish,32,Jack Grealish,Forward,jack grealish
 alvarez,33,Julián Álvarez,Forward,julian alvarez
+julian alvarez,33,Julián Álvarez,Forward,julian alvarez
 julianalvarez,33,Julián Álvarez,Forward,julian alvarez
-kaoru mitoma,34,Kaoru Mitoma,Forward,kaoru mitoma
-mitoma,34,Kaoru Mitoma,Forward,kaoru mitoma
 kaorumitoma,34,Kaoru Mitoma,Forward,kaoru mitoma
+mitoma,34,Kaoru Mitoma,Forward,kaoru mitoma
+kaoru mitoma,34,Kaoru Mitoma,Forward,kaoru mitoma
 karim benzema,35,Karim Benzema,Forward,karim benzema
-benzema,35,Karim Benzema,Forward,karim benzema
 karimbenzema,35,Karim Benzema,Forward,karim benzema
-mbappe,36,Kylian Mbappé,Forward,kylian mbappe
+benzema,35,Karim Benzema,Forward,karim benzema
 mbappee,36,Kylian Mbappé,Forward,kylian mbappe
 kylian mbappe,36,Kylian Mbappé,Forward,kylian mbappe
+mbappe,36,Kylian Mbappé,Forward,kylian mbappe
 kylianmbappe,36,Kylian Mbappé,Forward,kylian mbappe
-lionel messi,37,Lionel Messi,Forward,lionel messi
-leomessi,37,Lionel Messi,Forward,lionel messi
-lm10,37,Lionel Messi,Forward,lionel messi
 leo messi,37,Lionel Messi,Forward,lionel messi
+leomessi,37,Lionel Messi,Forward,lionel messi
+lionel messi,37,Lionel Messi,Forward,lionel messi
+lm10,37,Lionel Messi,Forward,lionel messi
 messi,37,Lionel Messi,Forward,lionel messi
 marcus rashford,38,Marcus Rashford,Forward,marcus rashford
-rashford,38,Marcus Rashford,Forward,marcus rashford
 marcusrashford,38,Marcus Rashford,Forward,marcus rashford
-neymar junior,39,Neymar,Forward,neymar
-neymar,39,Neymar,Forward,neymar
-neymarjr,39,Neymar,Forward,neymar
+rashford,38,Marcus Rashford,Forward,marcus rashford
 neymar jr,39,Neymar,Forward,neymar
-giroud,40,Olivier Giroud,Forward,olivier giroud
+neymar junior,39,Neymar,Forward,neymar
+neymarjr,39,Neymar,Forward,neymar
+neymar,39,Neymar,Forward,neymar
 olivier giroud,40,Olivier Giroud,Forward,olivier giroud
-rafa leao,41,Rafael Leão,Forward,rafael leao
+giroud,40,Olivier Giroud,Forward,olivier giroud
 rafael leao,41,Rafael Leão,Forward,rafael leao
-rafaleao,41,Rafael Leão,Forward,rafael leao
 leao,41,Rafael Leão,Forward,rafael leao
-robert lewandowski,42,Robert Lewandowski,Forward,robert lewandowski
+rafa leao,41,Rafael Leão,Forward,rafael leao
+rafaleao,41,Rafael Leão,Forward,rafael leao
 lewandowski,42,Robert Lewandowski,Forward,robert lewandowski
-mane,43,Sadio Mané,Forward,sadio mane
+robert lewandowski,42,Robert Lewandowski,Forward,robert lewandowski
 sadio mane,43,Sadio Mané,Forward,sadio mane
-sadionmane,43,Sadio Mané,Forward,sadio mane
+mane,43,Sadio Mané,Forward,sadio mane
 son heung min,44,Son Heung-min,Forward,son heung min
 sonny,44,Son Heung-min,Forward,son heung min
 heung min son,44,Son Heung-min,Forward,son heung min
-vinicius,45,Vinícius Júnior,Forward,vinicius junior
-vini,45,Vinícius Júnior,Forward,vinicius junior
 vinicius junior,45,Vinícius Júnior,Forward,vinicius junior
-vinicius jr,45,Vinícius Júnior,Forward,vinicius junior
-vini jr,45,Vinícius Júnior,Forward,vinicius junior
+vinicius,45,Vinícius Júnior,Forward,vinicius junior
 vinijr,45,Vinícius Júnior,Forward,vinicius junior
+vini jr,45,Vinícius Júnior,Forward,vinicius junior
+vinicius jr,45,Vinícius Júnior,Forward,vinicius junior
+vini,45,Vinícius Júnior,Forward,vinicius junior

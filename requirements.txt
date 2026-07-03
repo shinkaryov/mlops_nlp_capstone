@@ -72,6 +72,7 @@ dvc-studio-client==0.23.0
 dvc-task==0.40.2
 email-validator==2.3.0
 entrypoints==0.4
+et_xmlfile==2.0.0
 expiringdict==1.2.2
 Faker==40.28.1
 filelock==3.29.4
@@ -121,6 +122,7 @@ kombu==5.6.2
 label-studio==1.23.0
 label-studio-sdk==2.0.18
 launchdarkly-server-sdk==8.2.1
+lingua-language-detector==2.2.0
 lxml==6.1.1
 lxml_html_clean==0.4.5
 markdown-it-py==4.2.0
@@ -137,6 +139,7 @@ numpy==2.5.0
 omegaconf==2.3.1
 openai==1.109.1
 opencv-python-headless==4.13.0.92
+openpyxl==3.1.5
 opentelemetry-api==1.43.0
 ordered-set==4.0.2
 orjson==3.11.9
@@ -173,6 +176,7 @@ python-json-logger==2.0.4
 pytokens==0.4.1
 pytz==2022.7.1
 PyYAML==6.0.3
+RapidFuzz==3.14.5
 redis==5.2.1
 referencing==0.37.0
 regex==2026.6.28

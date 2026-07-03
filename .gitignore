@@ -7,40 +7,42 @@ __pycache__/
 # Env
 .env
 
+# IDE
+.idea/
+
 # Label Studio local database/storage
 label_studio_data/
 mydata/
 
-# DVC cache
+# DVC internals
 .dvc/cache/
+.dvc/tmp/
 
 # Large data is tracked by DVC, not Git
-# Ignore raw data files, but keep DVC metadata
 data/raw/**
+data/interim/**
+data/labeled/**
+data/processed/**
+
+# Keep DVC pointer files
+!data/**/*.dvc
+
+# Keep directory placeholders
+!data/.gitignore
 !data/raw/
 !data/raw/.gitignore
-!data/raw/*.dvc
-!data/raw/**/*.dvc
-data/interim/**
 !data/interim/
 !data/interim/.gitignore
-!data/interim/*.dvc
-!data/interim/**/*.dvc
-data/labeled/**
 !data/labeled/
 !data/labeled/.gitignore
-!data/labeled/*.dvc
-!data/labeled/**/*.dvc
-data/processed/**
 !data/processed/
 !data/processed/.gitignore
-!data/processed/*.dvc
-!data/processed/**/*.dvc
 
-# But allow small reference configs and labeling configs
+# Keep lightweight reference/config files
 !data/reference/
 !data/reference/**
 !data/labeling/
+!data/labeling/**
 !data/labeling/tasks/
 !data/labeling/tasks/*.json
 !data/labeling/tasks/*.jsonl
@@ -48,4 +50,4 @@ data/processed/**
 # Models/artifacts
 models/
 artifacts/
-.idea/
+.DS_Store

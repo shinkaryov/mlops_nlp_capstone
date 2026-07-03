@@ -2,1921 +2,3121 @@
   {
     "text": "Messi has done it all\n\n#WorldCup \nCopa America\n7 Ballon d’Ors\nChampions League \nDomestic league titles\n91 goals in a year\n\nGreatest Of All Time https://t.co/7y59e7Bo2w",
     "candidate_player": "Lionel Messi",
+    "player_id": "37",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "messi",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_d5aadc121a232f66d984"
   },
   {
     "text": "@GaryLineker A commentator said Ramos has more goals than C.Ronaldo in the knockout stages of the world cup..He forgot to mention that he has more than Messi too. Ramos 3: Messi 1. In fact, Rafael Leao has just tied the great MESSI",
     "candidate_player": "Lionel Messi",
+    "player_id": "37",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "messi",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_6a4b0ee43d97d0aa1bc9"
   },
   {
     "text": "Messi now has more goals than batistuta in the world cup",
     "candidate_player": "Lionel Messi",
+    "player_id": "37",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "messi",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_0c89327e382a0719152f"
   },
   {
     "text": "The depressing truth is that, simply because of one pointless World Cup, Ronaldo will never be as revered as Messi, no matter how many goals he scores anymore. #FIFAWorldCup",
     "candidate_player": "Lionel Messi",
+    "player_id": "37",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "messi",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_2fb33b71699fa0552770"
   },
   {
     "text": "has every goal messi scored this world cup been a penalty i am genuinely asking btw",
     "candidate_player": "Lionel Messi",
+    "player_id": "37",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "messi",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_45de99d972bbc7ad5e5f"
   },
   {
     "text": "@emptybook_ @Shelby_Messi Yes because Messi has 21 goals and 17 assists only in the World Cup this year. Messi fc IQ is genuinely concerning",
     "candidate_player": "Lionel Messi",
+    "player_id": "37",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "messi",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_eb0dd57c18695e670e98"
   },
   {
     "text": "@FIFAWorldCup 3 iconic moments. Messi goal V Mexico &amp; Messi assists V Netherlands &amp; Croatia.",
     "candidate_player": "Lionel Messi",
+    "player_id": "37",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "messi",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_91059ab5961533d15825"
   },
   {
     "text": "WE DID IT\nMESSI SHOT 2 GOALS \nARGENTINA WON FIFA WORLD CUP",
     "candidate_player": "Lionel Messi",
+    "player_id": "37",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "messi",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_918f4626372854d9f090"
   },
   {
     "text": "Messi reaches Semis &amp; scored goals &amp; assist's this world cup\n\nRonaldo gets dropped for 2 games, 1 goal with a penalty this world cup and gets kicked out in Quarters to Morocco.\n\nMessi is a better player than Ronaldo at this moment of time, like it or not",
     "candidate_player": "Cristiano Ronaldo",
+    "player_id": "29",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "ronaldo",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_30df75756834bf45ee39"
   },
   {
     "text": "I’ll quit being a football fan FOREVER, if Argentina wins today, d whole tournament have been scripted in Messi’s favour, no one has used the term “no penalty goals” cus it’s not @Cristiano, unbelievable decisions from VAR, his fan boys officiating\n#WorldCup",
     "candidate_player": "Cristiano Ronaldo",
+    "player_id": "29",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "cristiano",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_d886084d731fbb794a36"
   },
   {
     "text": "Kylian Mbappé is the first player to score 8+ goals in a single World Cup tournament since Ronaldo in 2002.\n\nHe'll be back. 😤\n\n#FIFAWorldCupFinal #FIFAWorldCup2022 https://t.co/qAm7YYEJVK",
     "candidate_player": "Cristiano Ronaldo",
+    "player_id": "29",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "ronaldo",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_c16b71d95b3c7907ba49"
   },
   {
     "text": "Knowing that Ronaldo will never score another goal at the world cup #MARPOR https://t.co/B9SykWIAVU",
     "candidate_player": "Cristiano Ronaldo",
+    "player_id": "29",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "ronaldo",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_54d6843a5d5769b8c2ed"
   },
   {
     "text": "@rizzy1932 @ESPNFC Nah bro you saying Messi needs to win the World Cup to me better than CR7 but cruyff only has 3 world cup goals and he’s on that list? Get that Mid pack out of here.",
     "candidate_player": "Cristiano Ronaldo",
+    "player_id": "29",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "cr7",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_4627cd537c154dadaef0"
   },
   {
     "text": "@piersmorgan Boom 💥 Ronaldo World Cup 2022. Claimed a goal, dubious penalty. No impact.",
     "candidate_player": "Cristiano Ronaldo",
+    "player_id": "29",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "ronaldo",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_369631f9991efbbcbd84"
   },
   {
     "text": "@NiallMcCarthy83 @terryflewers scoring in world cup is not easy if it's really easy Then why messi and Ronaldo only have one ko goals in Their 5 world cups?",
     "candidate_player": "Cristiano Ronaldo",
+    "player_id": "29",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "ronaldo",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_247f69141702f9ec9cea"
   },
   {
     "text": "@instablog9ja Still better than penaldo that didn't even make a World Cup final in his career and never score a knockout goal in World Cup. Now who is the failure.. Let's laugh at Ronaldo fan boys",
     "candidate_player": "Cristiano Ronaldo",
+    "player_id": "29",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "ronaldo",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_3637e97ff6434823230d"
   },
   {
     "text": "Even 4 goals by Mbappe couldn't stop goat Messi from lifting the world cup \n#FIFAWorldCup",
     "candidate_player": "Kylian Mbappé",
+    "player_id": "36",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mbappe",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_ebd72f8829e935b649e4"
   },
   {
     "text": "Mbappe 2 World Cup final goals he’s gonna leave here with sum",
     "candidate_player": "Kylian Mbappé",
+    "player_id": "36",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mbappe",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_23a5e35ee632dcf3f8b0"
   },
   {
     "text": "@ESPNFC @RBairner If France wins the World Cup, Mbappe gets his 1st Baloon Dor. His performances are out of this world for both PSG and France National Team. 5 goals and 2 assist without a penalty. I believe he will score in the final tomorrow",
     "candidate_player": "Kylian Mbappé",
+    "player_id": "36",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mbappe",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_3321ecbbad0eee5823d4"
   },
   {
     "text": "4 goals from MBAPPE in a World Cup final what game he had! He’s about to carry from here on out ✔️",
     "candidate_player": "Kylian Mbappé",
+    "player_id": "36",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mbappe",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_93dbda7aa2408b179d93"
   },
   {
     "text": "\"🏆 PSG players and their MOTM awards at the 2022 FIFA World Cup.\n\n🇦🇷 Lionel Messi 🏅🏅🏅🏅\n🇫🇷 Kylian Mbappe 🏅 🏅🏅\n🇧🇷 Neymar 🏅\n🇲🇦 Ashraf Hakimi 🏅\n\n#FIFAWorldCup   |#Qatar2022 https://t.co/XXaMU3r5V3\"",
     "candidate_player": "Kylian Mbappé",
+    "player_id": "36",
+    "position": "Forward",
     "source_file": "tweets1.xlsx",
     "matched_aliases": "kylian mbappe|kylian_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "id_1603291933845110786"
   },
   {
     "text": "@AlhajibaSam @_adofoasa__ You all talk with emotions not football knowledge. Did Maira outplayed every Argentine player until he was subbed. The same way Mbappe was ghosted so was Messi. They all had their play after the 75min going. The boy scored 3 goals in a world cup final and u said he doesn't deserv",
     "candidate_player": "Kylian Mbappé",
+    "player_id": "36",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mbappe",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_5efdfe155d996c6e2678"
   },
   {
     "text": "@call_me_ayokay @Cloud9jerry This present worldcup? What's the difference?\n\nTalk about Messi worldcup goals when he is 38. \n\nMbappe get more goals than Messi for this worldcup so chill",
     "candidate_player": "Kylian Mbappé",
+    "player_id": "36",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mbappe",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_955bc97ad1f83caedfcc"
   },
   {
     "text": "@Goal432 @HavocTamizhan2 @SofascoreINT @B_Fernandes8 @ManUtd @selecaoportugal @FIFAWorldCup 4 pens*\nMessi was better than mbappe at every aspect except goals",
     "candidate_player": "Kylian Mbappé",
+    "player_id": "36",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mbappe",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_69f5c275798012ae453e"
   },
   {
     "text": "Neymar, Lionel Messi eye new goal records during Brazil, Argentina's FIFA World Cup 2022 quarterfinal matches\n\n#FIFAWorldCup #Brazil #Argentina #LionelMessi #Neymar \n\nhttps://t.co/MxezM1Soci",
     "candidate_player": "Neymar",
+    "player_id": "39",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "neymar",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_a5bb93bd34495afcdf53"
   },
   {
     "text": "Back from injury with a goal ⚽️\n\nNeymar Jr gets his first World Cup goal in  Qatar https://t.co/JZflH7cESu",
     "candidate_player": "Neymar",
+    "player_id": "39",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "neymar jr",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_b12b225006d4de6072b1"
   },
   {
     "text": "For the qrts -\nThat only goal was from Neymar today,he is one the 2 bra players who did the penalty kick right.\nI guess it's other players fault for not streaming pink venom. And they willingly lost the match because they don't want to hear the worst world cup song anymore 💀💀💀 https://t.co/zj8PHlsg7O https://t.co/yFiTOTzgMe",
     "candidate_player": "Neymar",
+    "player_id": "39",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "neymar",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_a666ae82294c596776fa"
   },
   {
     "text": "@FIFAWorldCup Why exactly were u still leaving NEYMAR in the pitch after he gave u a goal that would v seen you through? He was practically strolling in Croatian half without marking thinking he's already done the work.I was expecting the coach to take him off or Rodrigo to get a 5th defender?",
     "candidate_player": "Neymar",
+    "player_id": "39",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "neymar",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_1ca01056e3a2bed1b85f"
   },
   {
     "text": "@ReaganO41316866 @FIFAWorldCup @goal @ChelseaFC @JamalMusiala @ChelseaFCW @neymarjr @BellinghamJude @Misscutefoodie @zero_mind0 @HEBabuOwino european africans vs european arab africans *",
     "candidate_player": "Neymar",
+    "player_id": "39",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "neymarjr",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_af777015e57bc2415ae8"
   },
   {
     "text": "Neymar finds the goal.....that was sexy too. #BRA #WorldCup2022 #WorldCup",
     "candidate_player": "Neymar",
+    "player_id": "39",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "neymar",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_c7d7ec549d5ab437aac6"
   },
   {
     "text": "An emotional day for Neymar ... \n\n❤️ Tied Pelé's goal-scoring record for Brazil\n😢 Eliminated from the World Cup\n\nIt wasn't meant to be. https://t.co/iDY7lC7kpR",
     "candidate_player": "Neymar",
+    "player_id": "39",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "neymar",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_a1f3cb1c5d74779e1064"
   },
   {
     "text": "Can visuals score goal in world cup i guess Nahhhhh !!!!!! But neymar ended them in both categories lol https://t.co/g7Hlgxsvmm",
     "candidate_player": "Neymar",
+    "player_id": "39",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "neymar",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_c3deb3ea5f1619da51ac"
   },
   {
     "text": "@FCB_Skydog @goal @FIFAWorldCup what did giroud do to be there over alvarez. and imo kovacic was the best cm on croatia",
     "candidate_player": "Julián Álvarez",
+    "player_id": "33",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "alvarez",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_1d8bb51e5fb5bd4260d7"
   },
   {
     "text": "@goal @FIFAWorldCup I do not agree.\nGriezman, Alvarez shouldn’t be there for me.\nGakpo of Netherlands you replace griezman.\nRichalison should replace Alvarez.",
     "candidate_player": "Julián Álvarez",
+    "player_id": "33",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "alvarez",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_c5fe2cfd3c9ee7f62210"
   },
   {
     "text": "My useless World Cup final prediction.\n\nFrance 2\nArgentina 1\n\nAlvarez and Messi link up to level the match after an early France goal, but Mbappe comes through in the clutch.",
     "candidate_player": "Julián Álvarez",
+    "player_id": "33",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "alvarez",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_afd2242cfccff7da44a7"
   },
   {
     "text": "Goals from Messi and Alvarez give Argentina a half-time lead! 👊\n\n#FIFAWorldCup | #ARG #HRV",
     "candidate_player": "Julián Álvarez",
+    "player_id": "33",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "alvarez",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_2d00457561f6ccbfa657"
   },
   {
     "text": "Messi scores his 11 goal in 25 world cup games for Argentina since 2006\n\nPenalty\nAlvarez\nPenaldo\nHaaland https://t.co/hvcqSUeQQ2",
     "candidate_player": "Julián Álvarez",
+    "player_id": "33",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "alvarez",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_e0f4bd4cdbcbe812e019"
   },
   {
     "text": "@BBCSport @BBCSounds How Brazil lost to Croatia 😑 \nThat Alvarez goal was wonderful. Everything you need to win a World Cup.",
     "candidate_player": "Julián Álvarez",
+    "player_id": "33",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "alvarez",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_2120f80193a96a4fe608"
   },
   {
     "text": "@chrizmillr @philiplord can you confirm this guy is in #Spiderverse? Otherwise please add him, he just scored an historic goal for Argentina in the World Cup semifinals. Julian La Araña Alvarez. https://t.co/sFcKZSEP5L",
     "candidate_player": "Julián Álvarez",
+    "player_id": "33",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "alvarez",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_23399c3c945aaebe1497"
   },
   {
     "text": "6 goals on their first World Cup outing: Julian Alvarez, Enzo Fernandez and Alex Mac Allister are all under 24 years of age. \n\nThoughts 🤔 https://t.co/W369vC7P1w",
     "candidate_player": "Julián Álvarez",
+    "player_id": "33",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "julian alvarez",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_2145113e1e6c94903b76"
   },
   {
     "text": "@GunnerKing14 @callumacv2 @TheWaqasHussain 2 wc players u serious?,  this World Cup alone Tottenham players succeeded so much \n\n1. Romero \n2. Lloris\n3 perisic\n\nMost assists in wc - Kane, perisic both\nGoal of the tournament- richarlison \n\nOkay so when we bring our past trophies u cry, then why u bringing up past wc squads?",
     "candidate_player": "Harry Kane",
+    "player_id": "31",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "kane",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_35d2bf38e5c36eb1dc9b"
   },
   {
     "text": "@Brad_Francis1 @SpursOfficial Kane is been praised at the moment for missing a penalty and Saka England highest goal scorer, best player of the match and best England player in the World Cup racially being abused at the moment https://t.co/mewhLGdYAI",
     "candidate_player": "Harry Kane",
+    "player_id": "31",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "kane",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_b4d95b001f56709ec0ff"
   },
   {
     "text": "@anandmahindra Hey Kane, I feel the last match was the best performance by our team in world cup. Do you know, what made the team to play with full confidence? it was your first goal !",
     "candidate_player": "Harry Kane",
+    "player_id": "31",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "kane",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_5e9567b471bb767ef710"
   },
   {
     "text": "@andrewtinleypa1 @MikeKeegan_DM Same can be said for Ronaldo highest goal scorer in international history, not a single goal in knockout games in any World Cup scored most of his goals against the same teams Kane has",
     "candidate_player": "Harry Kane",
+    "player_id": "31",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "kane",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_966dc329fc91581039f9"
   },
   {
     "text": "Up against his club teammate, but Harry Kane made no mistake from the spot! 🔥\n\nThe Spurs forward has put England level vs France, to become the nation's joint-top scorer with Wayne Rooney on 53 goals! 🏴󠁧󠁢󠁥󠁮󠁧󠁿\n\n#TheGoalpostNews #ENGFRA #ENG #FRA #Kane #England #FIFAWorldCup #WorldCup https://t.co/2PweYRYJXe",
     "candidate_player": "Harry Kane",
+    "player_id": "31",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "harry kane|kane",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_3d8ad2fab794a535da07"
   },
   {
     "text": "Goals by Oliver Giroud and Aurelien Tchouameni gave France a 2-1 win over England that took the holders into a World Cup semi-final with Morocco after Harry Kane equalised from the spot but then blazed a second late penalty over the bar on Saturday.\n\nhttps://t.co/TSs2veMKbG",
     "candidate_player": "Harry Kane",
+    "player_id": "31",
+    "position": "Forward",
     "source_file": "twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv",
     "matched_aliases": "harry kane",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 5,
+    "retweets": 0,
+    "tweet_key": "id_1601776645857214465"
   },
   {
     "text": "The 4 Players with five or more Combined Goals &amp; Assists at the 2022 🇶🇦 FIFA World Cup Finals: \n\nLionel Messi (🇦🇷 Argentina 8)\nKylian Mbappé (🇫🇷 France 7)\nHarry Kane (🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 5)\nBruno Fernandes (🇵🇹 Portugal 5) https://t.co/Ygg4oYjgxz",
     "candidate_player": "Harry Kane",
+    "player_id": "31",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "harry kane",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_766c95210be0137324c7"
   },
   {
     "text": "I’m still trying to understand why Kane took that second penalty. I guess cos he wanted to get his goal count up. But honestly, he shouldn’t have taken it. #WorldCup #EnglandVsFrance",
     "candidate_player": "Harry Kane",
+    "player_id": "31",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "kane",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_2ec31371a616210a0d36"
   },
   {
     "text": "@jojoisdaproblem If that giroud’s bicycle kick wasn’t offside that’ll deffs be the best goal of the world cup",
     "candidate_player": "Olivier Giroud",
+    "player_id": "40",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "giroud",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_037c1c3907572f993e2b"
   },
   {
     "text": "Mbappe, Rashford, Giroud, Gakpo et all have been better goal scorers in the world cup than Messi but you won't admit your goat is been given a free ride.",
     "candidate_player": "Olivier Giroud",
+    "player_id": "40",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "giroud",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_492e262b2aa3d0ee3a26"
   },
   {
     "text": "Just checked the goal scorer list of the world cup and I see Giroud is just a goal behind Mbappe. \n\nHe didn't score a single goal last world cup, it would be so great if he manages to beat Messi and Mbappe to it.",
     "candidate_player": "Olivier Giroud",
+    "player_id": "40",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "giroud",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_c0278077d83df7f705ec"
   },
   {
     "text": "A bit of a double-edged sword for #beardwearers everywhere as Benzema is out of #WorldCup2022 which could, potentially, be good news for Giroud and his beard. A beard on the pitch is worth two in the bush. #beardwatch #FIFAWorldCup #Qatar2022",
     "candidate_player": "Olivier Giroud",
+    "player_id": "40",
+    "position": "Forward",
     "source_file": "fifa_world_cup_2022_tweets.csv",
     "matched_aliases": "giroud",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 5,
+    "retweets": 0,
+    "tweet_key": "hash_e6e40fb7b97ee23364c2"
   },
   {
     "text": "Messi may not score tomorrow. But he will solidify his place as one of the worlds greatest soccer players of all time by leading Argentina to its first #WorldCup championship in decades. 2-1 Argentina. Messi  assist, 2 Alvarez goals. Giroud goal.",
     "candidate_player": "Olivier Giroud",
+    "player_id": "40",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "giroud",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_5e51a3198e4e3ed77c38"
   },
   {
     "text": "@mahmoudfat7y14 🏆⚽️ World Cup Golden Boot Race\n\n5⃣⚽️ 🇦🇷 Messi (3A) (114 min/g)\n5⃣⚽️ 🇫🇷 Mbappe (2A) (95)\n4⃣⚽️ 🇦🇷 Alvarez (0A) (91)\n4⃣⚽️ 🇫🇷 Giroud (0A) (96)\n\nMessi in pole position heading into the final!\n\n1st tiebreaker = assists\n2nd tiebreaker = mins per goal",
     "candidate_player": "Olivier Giroud",
+    "player_id": "40",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "giroud",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_87a4a428ef310ffdaee6"
   },
   {
     "text": "Harry Kane gets his REVENGE! 🇫🇷🏆🏴󠁧󠁢󠁥󠁮󠁧󠁿 #fifa #fifa23 #worldcup #worldcup2022 #england\nhttps://t.co/YyvP6yprtq\n\n#giroud #mbappe #kane #france #morocco #fifaworldcup ⁦@FIFAWorldCup⁩ FIFA World Cup #messi",
     "candidate_player": "Olivier Giroud",
+    "player_id": "40",
+    "position": "Forward",
     "source_file": "twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv",
     "matched_aliases": "giroud",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 1,
+    "retweets": 1,
+    "tweet_key": "id_1601772284682829826"
   },
   {
     "text": "@phos_0 i just feel like they’re just so good and giroud becoming the most goal scorer AND. world cup winner will be funsies but i like morocco too i also am rooting for croatia they were so good",
     "candidate_player": "Olivier Giroud",
+    "player_id": "40",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "giroud",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_80d7014ebba34496f1ea"
   },
   {
     "text": "🇦🇷 🇦🇷 🇦🇷 What a stand in goal by Emiliano Martinez.  What a World Cup Final!",
     "candidate_player": "Emiliano Martinez",
+    "player_id": "3",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "emiliano martinez",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_180486ce1ea04df0a426"
   },
   {
     "text": "@goal @emimartinezz1 Rigged, why would Martinez save that is all FIFA fault 😂😂😂😂 poor decision from officials not booking Martinez,, World Cup Rigged for MESSI",
     "candidate_player": "Emiliano Martinez",
+    "player_id": "3",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "martinez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_4c6967e2170619ddc5b3"
   },
   {
     "text": "@jlflament @MagicalXavi @c_chime_ Yes let mbappe enjoy his goals while dibu enjoys the world cup win. Factos 👍",
     "candidate_player": "Emiliano Martinez",
+    "player_id": "3",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "dibu",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_0ab0e1253b7bb7666269"
   },
   {
     "text": "Obviously Messi bribed his way to win Qatar 2022 world cup with Argentina. \nKylian Mbappe should have won the Golden boot, player of the tournament and king of the final day match, not Messi. The Moroccan goal keeper should have won the Golden glove, not Martinez of Argentina.",
     "candidate_player": "Emiliano Martinez",
+    "player_id": "3",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "martinez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_87b29b428cb8ed0cc8e8"
   },
   {
     "text": "That save by Martinez man. Best ever. \n\nThat’s the World Cup. \n\nThe last second goal to win for France. Good hit. His leg gets it. \n\nOh my god. France had it right there!",
     "candidate_player": "Emiliano Martinez",
+    "player_id": "3",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "martinez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_45a983af3a7b595077f0"
   },
   {
     "text": "Argentina lifts the World Cup after 36 years. Messi to retire after winning the World Cup. Martinez, best goal keeper. Mbappe best player done extraordinary well for France https://t.co/mzKYAcAztj",
     "candidate_player": "Emiliano Martinez",
+    "player_id": "3",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "martinez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_0939a048a7156939d2c0"
   },
   {
     "text": "\"What nerves of steel, what composure\" - @chris_sutton73 \n\n❌ Lautaro Martinez had two goals disallowed for offside v #KSA. Got dropped from the starting eleven. \n\nThen scores the penalty to send Argentina to the semi finals of the World Cup 👏\n\n#BBCWorldCup #BBCFootball",
     "candidate_player": "Emiliano Martinez",
+    "player_id": "3",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "martinez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_3d9069f6e75a30596849"
   },
   {
     "text": "@FIFAWorldCup How about higlighting the saves Bounou made? I get that Emi Martinez won the world cup, but also count the number of goals that he conceded",
     "candidate_player": "Emiliano Martinez",
+    "player_id": "3",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "emi martinez",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_8a80baf706dc4e4cf1f3"
   },
   {
     "text": "@SellTerStegen @J3EGOLDBERG If Modric deserved 2018 then Messi didn't deserve in 2010 and 2012 scoring 0 goals in World Cup and Copa respectively.",
     "candidate_player": "Luka Modrić",
+    "player_id": "22",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "modric",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_0e313acead4055c1d605"
   },
   {
     "text": "\"⚽:#fifaworldcup2022 Semifinals Re-View.\n\n#FIFAWorldCup #FIFAWorldCupQatar2022  #Messi #argentinafootball #FranceFootball #ArgentinavCrotia #francevmorocco  #semifinals #FIFA #LukaModric #kylianmbappe #FRAvARG #FrancevArgetina https://t.co/vceh76g1aK\"",
     "candidate_player": "Luka Modrić",
+    "player_id": "22",
+    "position": "Midfielder",
     "source_file": "tweets2.xlsx",
     "matched_aliases": "lukamodric",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "id_1603222414544048128"
   },
   {
     "text": "Argentina winning the World Cup would end the debate on who among Lionel Messi, Diego Maradona, Pele and Christiano Ronaldo is the greatest of all time (GOAT).\n\nWHAT A GOAL. Kovacic Gvardiol Ronaldinho Luka Modric\n#ArgentinaVsCroatia Chelsea Theresa May Lisandro Martinez NO VAR https://t.co/beMVLQ8FtJ",
     "candidate_player": "Luka Modrić",
+    "player_id": "22",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "luka modric|luka_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_d82e1b195d89655681a0"
   },
   {
     "text": "@goal Like is he the only one? Aside from the goat debate these sports page are really disrespecting all other footballers. Is messi the only guy who has lost the World Cup final? Did you post something like this about modric?",
     "candidate_player": "Luka Modrić",
+    "player_id": "22",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "modric",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_3b8afa4fcc229c3be069"
   },
   {
     "text": "Brazil aren’t out because of the way they celebrated the goals they scored throughout the World Cup. They’re out because they came up against Dominik Livaković, Luka Modrić and a Croatia side that simply refused to give up.",
     "candidate_player": "Luka Modrić",
+    "player_id": "22",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "luka modric|luka_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_2ec1278642919518d3b9"
   },
   {
     "text": "@MadridNations lol\nbecause of a world cup performance but let's not forget that iniesta has scored the winning goal in a final\nlet modric do that first.",
     "candidate_player": "Luka Modrić",
+    "player_id": "22",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "modric",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_e5f15baa2ac1d315beaf"
   },
   {
     "text": "@_moneymason19 Because of games at a world cup as if Iniesta didn't score the winning goal for Spain in 2010😂\n\nModric a drippy baller still",
     "candidate_player": "Luka Modrić",
+    "player_id": "22",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "modric",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_99796c3064924f28f506"
   },
   {
     "text": "@Carra23 Iniesta should be ahead of Modric. Won player of the world cup tournament and scored the only goal in the final to win Spain the world cup ??",
     "candidate_player": "Luka Modrić",
+    "player_id": "22",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "modric",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_9ecf3f4802e2505a12cf"
   },
   {
     "text": "@Ultra_Suristic Meanwhile England fans still think they'd have won the World Cup if it wasn't for a 50/50 foul not given on Saka a minute before Tchouameni's goal.",
     "candidate_player": "Bukayo Saka",
+    "player_id": "28",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "saka",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_80a1480617af435c871c"
   },
   {
     "text": "@Bullsinfor @cyg348 @CFCAaron__ @Evertxn I’m a united fan but Saka in his first World Cup scored more ko goals than Ronaldo in 5 world cups",
     "candidate_player": "Bukayo Saka",
+    "player_id": "28",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "saka",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_70fcb2b268c63ae30744"
   },
   {
     "text": "@maninja2 Just imagining how it would have been where it saka boukaya....\nFrance to win the FIFA world cup 2022",
     "candidate_player": "Bukayo Saka",
+    "player_id": "28",
+    "position": "Forward",
     "source_file": "twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv",
     "matched_aliases": "saka",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 2,
+    "retweets": 0,
+    "tweet_key": "id_1601850714816679936"
   },
   {
     "text": "@FIFAWorldCup Upamecano with 2 clear fouls, first on Saka leading to a goal. Then possible pen. This world cup will be decided by poor referring. #ENGFRA",
     "candidate_player": "Bukayo Saka",
+    "player_id": "28",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "saka",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_5c553f4a649826b9f7ad"
   },
   {
     "text": "@OgbeniAyoola He has delivered same amount of goals in this world cup as Saka with lesser minutes played... Also he played out of position in those games. 🌝🌝🌝\n\nRashford &gt;&gt;&gt;&gt;&gt;&gt;",
     "candidate_player": "Bukayo Saka",
+    "player_id": "28",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "saka",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_b925735253a0b37384ec"
   },
   {
     "text": "@GNev2 World Cup 2022, we'll never have a better chance to win a WC. We need a goal, have the two most creative English players in the league (Maddison &amp; Trent) available on the bench, GS brings on Mount &amp; Sterling who have a been terrible for Chelsea recently + he takes Saka off.",
     "candidate_player": "Bukayo Saka",
+    "player_id": "28",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "saka",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_888d49cf04c979d2d39b"
   },
   {
     "text": "@FIFAWorldCup @Budweiser @budfootball Paid referee. Penalty in first half wasn’t awarded, goal wasn’t overturned after foul on saka and didn’t give a clear red card to hernandez when he took down mason mount. He was literally looking at him and not the ball. Also, the foul on saka was a clear free kick.",
     "candidate_player": "Bukayo Saka",
+    "player_id": "28",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "saka",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_1ea45e5a59ab3db1a4f3"
   },
   {
     "text": "Bukayo Saka giving Harry Kane His first Goal at the World Cup .#ENGFRA",
     "candidate_player": "Bukayo Saka",
+    "player_id": "28",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "bukayo saka",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_379c15ec27601df7d075"
   },
   {
     "text": "@XtasyMong Mbappe on his way the greatest World Cup goal scorer, France, will surpass Henry in the champions league… Henry just has more flair. Primeiro tem que se preocupar em ser melhor que o Benzema",
     "candidate_player": "Karim Benzema",
+    "player_id": "35",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "benzema",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_bdb1adc1be3699ecec05"
   },
   {
     "text": "@Bet9jaOfficial Funny tho ..... Messi humbled mbappe how? If i may ask okay maybe during penalty shoot out you guys are funny mbappe scored 8 goals with two assists in this world cup when ur goat was at his age what was his achievement in the world cup , Without benzema, pogba and kante",
     "candidate_player": "Karim Benzema",
+    "player_id": "35",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "benzema",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_12cc25e9f1cf5014de5a"
   },
   {
     "text": "@goal It’s pitty that this amazing football player has no World Cup title. Forget 2022, he should have been in the square if 2018 WC France team. This time was Messi Time, but 2018 could have been Benzema as well. Sad!",
     "candidate_player": "Karim Benzema",
+    "player_id": "35",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "benzema",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_ac2455fee3bbbc60374d"
   },
   {
     "text": "🇪🇺 Arsenal W. vs Lyon W.\n⏰ 21:00 \n#UWCL \nArsenal W. play for a spot in the Women's Champions League quarter-finals when they face Lyon W.\n📶 Goals In Both Halves ✔️ 1.59 ODDS \nGet free bet here 👉 \nhttps://t.co/aySWwO74hM\n\n#FIFAWorldCup Benzema World cup Tinubu Alvarez Cut 1 https://t.co/NhsJxJrJdy",
     "candidate_player": "Karim Benzema",
+    "player_id": "35",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "benzema",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_a364b25158bad1890969"
   },
   {
     "text": "STRENGTH OF FRANCE:\n⭐Missing 4 regulars: Pogba, kante, benzema and Lucas \n⭐9/23 have played in 2018 and 2022 WC. Average age of the left out 14/23 is a prime 29.7\n⭐Average age of France in 2018 and 2022 WC is ~26.5\n@goal\n@sportbible @SkySportsPL @FIFAWorldCup @ChampionsLeague",
     "candidate_player": "Karim Benzema",
+    "player_id": "35",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "benzema",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_8cd76b1cb38d3b0945fd"
   },
   {
     "text": "\"Shopping from an  online vendor😂😂😂 #voiceover\n\n|| Naira Marley Molina Benzema Arab But France Nancy Anthony Joshua Dembele Ounahi Back to Back Macron Kounde #FIFAWorldCup #GOAT𓃵 #Messi𓃵 #AvatarTheWayOfWater || https://t.co/zYPXdxM6v6\"",
     "candidate_player": "Karim Benzema",
+    "player_id": "35",
+    "position": "Forward",
     "source_file": "tweets2.xlsx",
     "matched_aliases": "benzema",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "id_1603240587410526214"
   },
   {
     "text": "France to unleash Benzema? Bring it on! #ARG #FIFAWorldCup",
     "candidate_player": "Karim Benzema",
+    "player_id": "35",
+    "position": "Forward",
     "source_file": "tweets2.xlsx",
     "matched_aliases": "benzema",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "id_1603243941595598848"
   },
   {
     "text": "France striker Karim Benzema out of World Cup with injury #FIFAWorldCup #WorldCup2022 https://t.co/6sfCgPrUSt",
     "candidate_player": "Karim Benzema",
+    "player_id": "35",
+    "position": "Forward",
     "source_file": "fifa_world_cup_2022_tweets.csv",
     "matched_aliases": "karim benzema",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 5,
+    "retweets": 0,
+    "tweet_key": "hash_8a77d574b603d191bc0c"
   },
   {
     "text": "Rashford Mbe think say him still dey Qatar 🇶🇦😂😂😂😂 !!! 😂 carry worldcup goal dey score 😂 https://t.co/OBP5yXEyG3",
     "candidate_player": "Marcus Rashford",
+    "player_id": "38",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "rashford",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_ca81aaec82b67e1de958"
   },
   {
     "text": "Perhaps the pick of the bunch was @alanshearer talking about his thoughts on Danny Ward for Marcus Rashford’s free kick goal vs Wales.\n\nVia @leicslive : ‘The ‘keeper is at fault here’…Not sure about you guys but looks like a pretty good goal to us🤷‍♂️\n\n#WorldCup #England #Wales https://t.co/8k6iOxFu9e",
     "candidate_player": "Marcus Rashford",
+    "player_id": "38",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "marcus rashford",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_290e4e1a81081c17e4a1"
   },
   {
     "text": "@Vizzy_rayven Martial will score this goal , Rashford will have done the same thing Kolo Muani did here . Less power and more guile , just side foot that ball any side of the GK and you won the World Cup",
     "candidate_player": "Marcus Rashford",
+    "player_id": "38",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "rashford",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_04c218523892c228fc7c"
   },
   {
     "text": "UK News | Wed | 21 Dec | 22:22 | UTC | Man Utd 2 Burnley 0- Rashford seals Carabao Cup win with incredible solo goal as he takes World Cup form home with him https://t.co/UKJRTyq7Ni",
     "candidate_player": "Marcus Rashford",
+    "player_id": "38",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "rashford",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_419133396155f4b8a571"
   },
   {
     "text": "@Dr_A_Choudhry Lol there was nothing like seeing @MarcusRashford score a free kick goal against Wales in the stadium . The feelings of redness and the world cup were there both at the same time",
     "candidate_player": "Marcus Rashford",
+    "player_id": "38",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "marcusrashford",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_245b822ef26f4c3c7f6d"
   },
   {
     "text": "World Cup 2022: Marcus Rashford, Richarlison and Kylian Mbappe feature in best goal...",
     "candidate_player": "Marcus Rashford",
+    "player_id": "38",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "marcus rashford",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_704862a595dcc0dcf7d1"
   },
   {
     "text": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Bukayo Saka (Arsenal)\n▪️  3 goals and 1 assists\n\n🏴󠁧󠁢󠁥󠁮󠁧󠁿 Marcus Rashford (Man Utd)\n▪️ 3 goals \n\n🏴󠁧󠁢󠁥󠁮󠁧󠁿 Phil Foden (Man City)\n▪️ 1 goal and 2 assists \n\n🏴󠁧󠁢󠁥󠁮󠁧󠁿 Harry Kane (Tottenham)\n▪️ 2 goals and 3 assists \n\nEngland's offensive at the World Cup, the future looks bright👏 https://t.co/Tdsg9YAHzm",
     "candidate_player": "Marcus Rashford",
+    "player_id": "38",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "marcus rashford",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_d7d2f14765b25a84b672"
   },
   {
     "text": "@Greenbay444 @MarcusRashford @Sanchooo10 Why? Because he scored against Burnley and 3 goals against crap teams in the World Cup?",
     "candidate_player": "Marcus Rashford",
+    "player_id": "38",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "marcusrashford",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_584540536340c6738252"
   },
   {
     "text": "true world cup winners:\nCho Guesung - Heartthrob of the year;\nBrasil National Team - Best Dance Performance + Best Goal + only team that has Paquetá, Vini Jr and Richarlison\nMorocco National Team - for having Bono &lt;3\nTottenham HotSpurs - 90% of the Spurs attending the World Cup",
     "candidate_player": "Vinícius Júnior",
+    "player_id": "45",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "vini jr",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_b742ef63f4b774703684"
   },
   {
     "text": "2022 World Cup Goal-Creating Actions Leaders\n(All Stats through Monday's games)\n\nKylian Mbappé🇫🇷 (6)\nJude Bellingham🏴󠁧󠁢󠁥󠁮󠁧󠁿 (5)\nJordi Alba🇪🇸 (4)\nVinicius Júnior🇧🇷 (4)\nhttps://t.co/gUEfBMa343",
     "candidate_player": "Vinícius Júnior",
+    "player_id": "45",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "vinicius junior",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_20242833163418875c90"
   },
   {
     "text": "Brazil scored 6 open play goals this World Cup:\n\n1st: Vinicius rebound assist\n2nd: Vinicius assist\n3rd: Vinicius pre assist\n4th: Vinicius goal\n5th: ❌\n6th: Vinicius assist https://t.co/WbxauIARMS",
     "candidate_player": "Vinícius Júnior",
+    "player_id": "45",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "vinicius",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_0842f0f84f09fa7eae91"
   },
   {
     "text": "Brazil star Vinicius Jnr promises that his teammates have got more planned choreographed dance goal celebration after Roy Keane labelled the act disgraceful as the Samba boys showed off some exotic moves in a Rnd 16 World Cup win over South Korea. https://t.co/66LU4crfaV",
     "candidate_player": "Vinícius Júnior",
+    "player_id": "45",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "vinicius",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_105a2d40f23be0620da2"
   },
   {
     "text": "@annessa97 @londoncabby17 @Tim_Vickery Vini was more influential until today, man. Statistics-wise is unquestionable. And Messi is on his fourth World Cup. 2 goals on Knockout stages? Shit, man. Is this a stat of a player who is the leader of his team on-field?",
     "candidate_player": "Vinícius Júnior",
+    "player_id": "45",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "vini",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_7b699a0d280d522f0e53"
   },
   {
     "text": "Brazil vs South Korea 4-0| All Goals &amp; Highlights. FIFA World Cup\n\nVinicius Jr, Neymar, Richarlison y Paquetá\n\nBrasil 4-0 Corea del Sur resumen y Goles.\nhttps://t.co/HFskS8m35a https://t.co/ZyyiGatims",
     "candidate_player": "Vinícius Júnior",
+    "player_id": "45",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "vinicius jr",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_b8cd9cdd45be2475ef47"
   },
   {
     "text": "@ExJohnHonestyy look away when Vini scores a winning goal for Brazil in World Cup final",
     "candidate_player": "Vinícius Júnior",
+    "player_id": "45",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "vini",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_4240aeec1dc7897b5220"
   },
   {
     "text": "Noel S. Williams: \"'The wink' may be less intolerable when Vinicius is more senior and has helped lead Brazil to a couple more World Cup titles.\"  https://t.co/4BhYJTN6RK #WorldCup2022 (photo courtesy Goal) https://t.co/37K400lmJr",
     "candidate_player": "Vinícius Júnior",
+    "player_id": "45",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "vinicius",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_6a741655e916da610311"
   },
   {
     "text": "@waro7ii @Stav10M Goals scored by Argentina in this world cup 7 \n3 - Messi \n2 - Alvarez \n1-Enzo Fernandez\n1-Mac allister \n\nGoals Scored by Portugal in this world cup 10+ \n3 - Ramos \n2 - Bruno \n1 - Ronaldo \nWho is carrying and who is getting carried is clearly visible 😭",
     "candidate_player": "Bruno Fernandes",
+    "player_id": "14",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "bruno_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_584773120f32b86420cc"
   },
   {
     "text": "@SamuelOyinloy13 @Joshua_Ubeku Bro shut up Ronaldo contribution was just a goal in 2006 worldcup Figo was the bruno fernades of Portugal then with 3 assist one of which was given to Ronaldo, Figo was a ballon dor winner then Ronaldo was a young player stop preaching lies",
     "candidate_player": "Bruno Fernandes",
+    "player_id": "14",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "bruno_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_534fe05696335abad864"
   },
   {
     "text": "Players with 5+ goal contributions at Qatar World Cup 2022:\n\n🔹7 - Kylian Mbappe\n🔸5 - Lionel Messi\n🔹5 - Bruno Fernandes https://t.co/dTo0h67nEt",
     "candidate_player": "Bruno Fernandes",
+    "player_id": "14",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "bruno fernandes|bruno_contextual|fernandes_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_b56f074e340c310ccb81"
   },
   {
     "text": "Na 3 assists and 2 goals for inside 3 World Cup games so far for Bruno Fernandes — Na baller\n\nMy midfielder sabi 🔥🇵🇹 https://t.co/MEaDKyVqFz",
     "candidate_player": "Bruno Fernandes",
+    "player_id": "14",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "bruno fernandes|bruno_contextual|fernandes_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_1b84ecaa2eb1e8e2a86c"
   },
   {
     "text": "Bruno Fernandes now has 5 goals + assists at the 2022 World Cup. Only Kylian Mbappe (7) has more 🇵🇹 #WorldCup2022 #mufc https://t.co/pTR7My7TGP",
     "candidate_player": "Bruno Fernandes",
+    "player_id": "14",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "bruno fernandes|bruno_contextual|fernandes_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_fd0c29f649c9baaa2b9b"
   },
   {
     "text": "Its only Kylian Mbappé who has been involved in more goals than Bruno Fernandes during this #WorldCup #Qatar2022 https://t.co/SDlZruCz0L",
     "candidate_player": "Bruno Fernandes",
+    "player_id": "14",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "bruno fernandes|bruno_contextual|fernandes_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_bf8e7d73e7ae0c2c7568"
   },
   {
     "text": "Only Kylian Mbappe (7) and Lionel Messi (6) have been involved in as many goals as Manchester United’s Bruno Fernandes (2 goals, 3 assists) at this World Cup.\n\nIt's been a quiet start for Fernandes who has yet to have an attempt in this game.\n\n#FIFAWorldCup\n#MoroccoPortugal",
     "candidate_player": "Bruno Fernandes",
+    "player_id": "14",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "bruno fernandes|bruno_contextual|fernandes_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_a0770c1b9df1e7f568b4"
   },
   {
     "text": "WTF WAS BRUNO FERNÁNDEZ DOING TODAY HE WAS PLAYING VERY BADLY😶😭🇵🇹0-1 🇲🇦\n@goal @SuperSportTV @Cristiano @Portugal @FIFAWorldCup #Football #FIFAWorldCup https://t.co/mYusaGuj5l",
     "candidate_player": "Bruno Fernandes",
+    "player_id": "14",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "bruno_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_62eb9762f087284b05b5"
   },
   {
     "text": "world cup final prediction: \nportugal vs england \nfelix scores a beautiful goal from outside the box, england goes silent\nronaldo is badly injured (aw)\nportugal holds it throughout the game then BOOM bellingham bicycle kick with an assist from sterling with 1 min to go",
     "candidate_player": "Jude Bellingham",
+    "player_id": "20",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "bellingham",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_f8ea64ec0d79aeabb86b"
   },
   {
     "text": "My FIFA WORLD CUP 2022 midfielders: \n\nSofyan Amrabat\nJude Bellingham \nAurelien Tchouameni",
     "candidate_player": "Jude Bellingham",
+    "player_id": "20",
+    "position": "Midfielder",
     "source_file": "twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv",
     "matched_aliases": "jude bellingham",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 1,
+    "retweets": 1,
+    "tweet_key": "id_1601759304763473921"
   },
   {
     "text": "Southgate has got to start Bellingham in midfield with Rice, whether that’s a 3 man midfield or just the 2 sitting, that’s England’s 2 best deep midfielders out the current World Cup squad. #WorldCup2022 #Qatar2022",
     "candidate_player": "Jude Bellingham",
+    "player_id": "20",
+    "position": "Midfielder",
     "source_file": "fifa_world_cup_2022_tweets.csv",
     "matched_aliases": "bellingham",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_7d277e36689bb1ce41aa"
   },
   {
     "text": "For England, the future is bright with a new generation of players like Bukayo Saka, Phil Foden and Jude Bellingham - youngsters who are yet to reach their prime - lighting up the tournament\nhttps://t.co/3OoICW0mm1",
     "candidate_player": "Jude Bellingham",
+    "player_id": "20",
+    "position": "Midfielder",
     "source_file": "twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv",
     "matched_aliases": "jude bellingham|jude_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "id_1601920795500253185"
   },
   {
     "text": "Jude Bellingham marked his World Cup debut for England with their opening goal in an impressive 6-2 win over Iran. Currently Borussia Dortmund midfielder. He is the 19-year-old midfielder EVERYONE is talking about\n\n#FIFAWorldCup #FIFAWorldCup2022 #QatarWorldCup2022 #Qatar2022 https://t.co/6oY2a3jUcA",
     "candidate_player": "Jude Bellingham",
+    "player_id": "20",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "jude bellingham|jude_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_64ad93d2003dc25b7976"
   },
   {
     "text": "@ChelseaFC Plan F Please buy Mykhaylo Mudryk 7 goal 6 assist UCL 3 Goal 2 assist,Sikan 6 goal/ Dovbyk 11 goal 2 assist UECL 5 goal 2 assist/Haji Wright 9 goal 1 assist WorldCup 1 goal/Richarlison 3 goal 1 assist WorldCup,Bellingham 3 Goal 2 assist WorldCup/Enzo Fernandez 14 goal 13 assist",
     "candidate_player": "Jude Bellingham",
+    "player_id": "20",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "bellingham",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_dfa5ef3746c7faef1b6d"
   },
   {
     "text": "@Lauren_Sadlerx I’m sound but overall Jude Bellingham at 19 is a better all round player than Rooney was at that age. Been watching him bully grown experienced men off the ball since he was 15. He’s already matched rooneys goal record at the World Cup 🤣",
     "candidate_player": "Jude Bellingham",
+    "player_id": "20",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "jude bellingham",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_c25bc0d4a77ab5e81d58"
   },
   {
     "text": "FIFA 23 World Cup Phenoms: Bellingham, Militao, Leao, more – sportnews.blogdady https://t.co/TGNawL6vhS",
     "candidate_player": "Jude Bellingham",
+    "player_id": "20",
+    "position": "Midfielder",
     "source_file": "twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv",
     "matched_aliases": "bellingham",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "id_1601834057318469632"
   },
   {
     "text": "@Ibn_aaminu Rafael Leao played all the games as a sub bt still has more goals dan him \nLearn to accept that lions too grow \n\nHave you seen any 37yrs striker stating a game in the world cup ?",
     "candidate_player": "Rafael Leão",
+    "player_id": "41",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "rafael leao",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_7d4e00cc944a21c7f2af"
   },
   {
     "text": "Leao smiling whilst scoring for both of his goals thos world cup 😭 https://t.co/9KewqXqk8P",
     "candidate_player": "Rafael Leão",
+    "player_id": "41",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "leao",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_3b394105f4a5c9bb9c64"
   },
   {
     "text": "@FIFAWorldCup True. What a goal by Leao! https://t.co/Sep311V5R2",
     "candidate_player": "Rafael Leão",
+    "player_id": "41",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "leao",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_1e60f84de88705262553"
   },
   {
     "text": "GOAL: World Cup round of 16 - Portugal 6-1 Switzerland, Leao (92 mins) #Qatar2022",
     "candidate_player": "Rafael Leão",
+    "player_id": "41",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "leao",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_dc4a8609cf0a6d3cc654"
   },
   {
     "text": "The best player of this worldcup has been replaced by Rafael Leao for 4 mins+added time. He left the pitch with his 5th goal involvement in 3 games played in the tournament.",
     "candidate_player": "Rafael Leão",
+    "player_id": "41",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "rafael leao",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_43f8ad8313ec5d40d9fb"
   },
   {
     "text": "@NapoliSansone Crazy how leao has more worldcup goals then the whole napoli team put together 😃",
     "candidate_player": "Rafael Leão",
+    "player_id": "41",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "leao",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_f24426fb14a83ab85c36"
   },
   {
     "text": "@UTDTrey @UtdOptimist Rapheal leao has more World Cup goals than Rooney",
     "candidate_player": "Rafael Leão",
+    "player_id": "41",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "leao",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_731c2bb8333efd797ba8"
   },
   {
     "text": "leao 2 world cup goals they were comparing this man to midtinelli....",
     "candidate_player": "Rafael Leão",
+    "player_id": "41",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "leao",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_702173ca4571b2d6e381"
   },
   {
     "text": "NEARLY THE END OF WORLD CUP AWARDS: \n\n😍 Best player : Messi 🐐 \n😮 Underrated gem : nicolas otamendi\n💥 Emerging star : Julian/gakpo\n😒 Flop of the tournament: Pendu/kdb/Neur\n🏹 Goal of the tournament: Julian 's goal/ that mexican free kick https://t.co/u7GArRXlqE",
     "candidate_player": "Kevin De Bruyne",
+    "player_id": "21",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "kdb",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_446842588798789515de"
   },
   {
     "text": "@Bamsco_Sauce @goal De Bruyne is a massive disappointment, there is no reason on earth why a supposed 3rd best player on Ballondor ranking will have such worldcup.\n\nBest players on current form without Messi👇\n\nMbappe\nHalaand\nNeymar\nLewandowski \nVinicius\nRashford\nSaka\nSalah\nModric\nMusiala",
     "candidate_player": "Kevin De Bruyne",
+    "player_id": "21",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "de bruyne",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_b0767eff5c9b5ad10353"
   },
   {
     "text": "@9StrikingViking @goal Kdb has a loser mentality. Mbappe scored 4 goals in a final world cup",
     "candidate_player": "Kevin De Bruyne",
+    "player_id": "21",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "kdb",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_2eb598da9818900f7c72"
   },
   {
     "text": "World Cup Flop XI…\n\n➡️ Should Neuer go in goal?\n➡️ Does Ronaldo lead the line?\n➡️ Did KDB finally prove why he will never be fit to tie the laces of the likes of Iniesta? \n\nScroll down to find out! \n\n#WorldCup #Ronaldo𓃵 #WorldCup2022 https://t.co/CcCPXh6H3e",
     "candidate_player": "Kevin De Bruyne",
+    "player_id": "21",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "kdb",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_47052e8ce5fb72afb25c"
   },
   {
     "text": "@N8Lad @sportbible Stop tyrna make EPL look good ..there's 0 players from EPL in the top 5 goal scorers..not only that but none of them grabbed the headlines whole world cup we talking about MBAPPE,MESSI,GIROUD...de bruyne had a stinker and his the best in EPL, sit down buddy",
     "candidate_player": "Kevin De Bruyne",
+    "player_id": "21",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "de bruyne",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_1d26f34d5e483d2e0316"
   },
   {
     "text": "more goals in this world cup than Ronaldo, Neymar, De Bruyne and Kane combined. https://t.co/7mEMbu2liB",
     "candidate_player": "Kevin De Bruyne",
+    "player_id": "21",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "de bruyne",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_0b1ea43085f3003ca6f4"
   },
   {
     "text": "@ESPNUK Those blaming KDB 4 world cup failure are fools, with strikers like Batsuayi what could've KDB done? Batsuayi score easy goals like Lukaku, Lukaku wasted 2 clear chances is that KDB problem?",
     "candidate_player": "Kevin De Bruyne",
+    "player_id": "21",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "kdb",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_c89f1e667543cac99f12"
   },
   {
     "text": "@Irunnia_ I watched a Belgium game at the World Cup and this guy couldn’t make one goal scoring pass. I’m a big KDB fan but watching some of his performance at the World Cup really disappointed me.",
     "candidate_player": "Kevin De Bruyne",
+    "player_id": "21",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "kdb",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_ad064f9513d919e4c1e4"
   },
   {
     "text": "Against Mexico, Messi lifted his goal tally for Argentina in 2022 to 13, more than in any other calendar year. His previous record was 12 goals from 2021.\n\nHe also registered his first assist of the 2022 World Cup by setting up Enzo Fernandez for Argentina's second goal. https://t.co/wcH9xGropO",
     "candidate_player": "Enzo Fernández",
+    "player_id": "18",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "enzo fernandez|enzo_contextual|fernandez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_e8b416a942ac36b142aa"
   },
   {
     "text": "#SportsPanorama Top three moments \n\nThe hair of God moment for me Christiano Ronaldo celebrating and claiming Bruno Fernandez’s goal \n\nMorroco going to Semifinals\n\nMessi and Argentina winning the World Cup in Style\n\nicon akpe",
     "candidate_player": "Enzo Fernández",
+    "player_id": "18",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "fernandez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_de8ed520e0571cbf5886"
   },
   {
     "text": "Argentina team Worldcup some positive\nMain Messi as leader nd opponent fear of him nd he has been best player \nDibu Martinez two penalties knockout bail out nd save the team\nJulian Alvarez all the vital goal \nEnzo Fernandez that holding midfielder role mde defence smooth",
     "candidate_player": "Enzo Fernández",
+    "player_id": "18",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "enzo fernandez|enzo_contextual|fernandez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_793bd43e295dd23deb11"
   },
   {
     "text": "@0noneoftheabove @mariamessina77 @DonnieDarkened @JackPosobiec Look it\n\nWorld Cup revelation player: Enzo Fernandez shirt 24 \n\nBest player of the cup 2022: \nLionel Messi shirt 10\n\nBest goalkeeper of the cup, who won the golden glove: \n\nEmiliano Martínez shirt 23\n\nTop scorer of the 2022 World Cup: \n\nMbappé 🇫🇷 who scored 8 goals. \nShirt 10 https://t.co/hIdcBKOiI6",
     "candidate_player": "Enzo Fernández",
+    "player_id": "18",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "enzo fernandez|enzo_contextual|fernandez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_9ed5e36ff4001b6d4e9c"
   },
   {
     "text": "@FIFAWorldCup Enzo Fernandez and the kid who scored 2 goals for Argentina sorry i just forgot the name",
     "candidate_player": "Enzo Fernández",
+    "player_id": "18",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "enzo fernandez|enzo_contextual|fernandez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_4ea2b81198ea0487135b"
   },
   {
     "text": "@sportbible NEARLY THE END OF WORLD CUP AWARDS: \n\n😍 Best player Lionel Messi\n😮 Underrated gem  Antoine Griezmann\n💥 Emerging star Enzo Fernandez\n😒 Flop of the tournament Cristiano Ronaldo\n🏹 Goal of the tournament Luis Chavez",
     "candidate_player": "Enzo Fernández",
+    "player_id": "18",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "enzo fernandez|enzo_contextual|fernandez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_20e6e8762ec919f0f8e5"
   },
   {
     "text": "Enzo Fernández - World Cup 2022:\n\n☑️7 games\n☑️5 starts\n☑️563 minutes\n☑️1 goal\n☑️1 assist\n☑️75 passes per 90\n☑️88% pass accuracy\n☑️1 key pass per 90\n☑️3.5 tackles per 90\n☑️1 clearance per 90\n☑️58% of all duels won\n\nEnzo Fernández wins Young Player of the Tournament 👏🇦🇷 https://t.co/L3FkCXheTk",
     "candidate_player": "Enzo Fernández",
+    "player_id": "18",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "enzo fernandez|enzo_contextual|fernandez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_d7a3cb6ec6089cf64144"
   },
   {
     "text": "Before this World Cup neither Messi nor Ronaldo had scored a goal in the KO stages of a World Cup. Messi has gone on to score two while Ronaldo is still stuck at 0\nMagical Messi\nPeter Drury Enzo Fernandez \nBest World Cup https://t.co/8MUpEAP3Xi",
     "candidate_player": "Enzo Fernández",
+    "player_id": "18",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "enzo fernandez|enzo_contextual|fernandez_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_8d488544049ce2b0fdfd"
   },
   {
     "text": "@ABDUL_9_9_9_ @_Sm1th10 @Vettel_AMR Still Penaldo has no world cup knock out goal/assist.What a loser.He should be compared to Lewandowski,Benzema.Messi,Maradona,Pele are in different league.",
     "candidate_player": "Robert Lewandowski",
+    "player_id": "42",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "lewandowski",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_bde9188b0c649c39f14a"
   },
   {
     "text": "@RightChoice___ @KareemFlex1 @Jeremiah_b_off That wasn’t a World Cup year… Lewandowski was highest goal scorer in Europe, won his league titles too",
     "candidate_player": "Robert Lewandowski",
+    "player_id": "42",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "lewandowski",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_da707c0a199b68e36d92"
   },
   {
     "text": "@BartishPartek @WoseRL9 Suarez has 3× the number of goals, 2x the KO goals, 6x the assists and 5x the MOTMs as Lewandowski in the biggest stage. You can't use the world Cup card against Suarez",
     "candidate_player": "Robert Lewandowski",
+    "player_id": "42",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "lewandowski",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_6486459e84a3b6b67d2f"
   },
   {
     "text": "+12.25u💰💰\n\n⚽️ World Cup 2020 🇶🇦 \n\nTo win:\n\nArgentina 5/1 (1u) ✅💰\nFrance 7/1 (1u)\n\nTop goal scorer:\nMbappe 8/1 (.5u)✅💰\nJesus 25/1 (.25u)\nLewandowski 28/1 (.25u)\n\nTop assists:\nMessi 5/1 (1u) ✅💰\nLeao 35/1 (.25u) https://t.co/39mMgUPQwy",
     "candidate_player": "Robert Lewandowski",
+    "player_id": "42",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "lewandowski",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_46324bbd2f76c2e4bf31"
   },
   {
     "text": "@iamgregdavies @SaxbyDee @BBCSport He wasn’t self centered when he was banging in goals for them right?. He is still scoring goals for them and he has scored more goals for them in this World Cup than Lewandowski has for Poland. There is no slander from every tabloid on Lewa.",
     "candidate_player": "Robert Lewandowski",
+    "player_id": "42",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "lewandowski",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_3ebb48d2de37d10f6fa4"
   },
   {
     "text": "r/realmadrid really saying world cup is a bad tournament. Lewandowski cried just for scoring his first goal, but apparently it doesn't matter now.",
     "candidate_player": "Robert Lewandowski",
+    "player_id": "42",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "lewandowski",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_fdc7719750a8d8300596"
   },
   {
     "text": "@goal That's too earlier to start making predictions. Still prolly 9/10 months of football to be played before the dubious ceremony takes place.\n\nTop 4 contender : Mbappe. Haaland. Lewandowski. Messi (PR &amp; World cup factor)",
     "candidate_player": "Robert Lewandowski",
+    "player_id": "42",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "lewandowski",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_d448028d8aafb58c37e9"
   },
   {
     "text": "@bigboss_mix @SeppLoL @DanielRegha @goal In Messi's case, it is more of fans putting unnecessary  pressure bcos of competition with Cr7 but normally worldcup is no validation. A player like Nedved, Shevchenko, Lewandowski and co will never win it regardless of how many times they play because of the inbalance in their+",
     "candidate_player": "Robert Lewandowski",
+    "player_id": "42",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "lewandowski",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_33a7fe2425b3644a17b4"
   },
   {
     "text": "▒▒▒▒ 23% minting ᴄᴏᴍᴘʟᴇᴛᴇ!\n\n⚽️It's world cup day!!⚽️\n\nThe following 1/1 NFTs have now been minted in our #WorldCup2022 collection!\n\nGrealish🏴󠁧󠁢󠁥󠁮󠁧󠁿\nLewandowski🇵🇱\nRonaldo (fat)🇧🇷\nMbappe🇫🇷\n\nPlus a lot more! Minting is now Live👇\n\nhttps://t.co/SDLFHpUW77\n\n#Solana https://t.co/gex94E84Gw",
     "candidate_player": "Jack Grealish",
+    "player_id": "32",
+    "position": "Forward",
     "source_file": "fifa_world_cup_2022_tweets.csv",
     "matched_aliases": "grealish",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 11,
+    "retweets": 0,
+    "tweet_key": "hash_dc29d15c3bba0e7ef4e0"
   },
   {
     "text": "@athar0908 The result is all that matters. If you don’t play your most inform player pre World Cup and during the World Cup and you lose you deserve the disrespect that comes after. Never mind thrown in jack grealish instead of Trent when you need a goal.",
     "candidate_player": "Jack Grealish",
+    "player_id": "32",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "jack grealish",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_aa6726c10afc9d4f58df"
   },
   {
     "text": "@SeanDOlfc Tbf Grealish scored more goals at the World Cup",
     "candidate_player": "Jack Grealish",
+    "player_id": "32",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "grealish",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_3e64372e8db3b6769e32"
   },
   {
     "text": "Jack Grealish Fulfills Promise to a Boy with a Goal Celebration at the FIFA World Cup 2022\nhttps://t.co/Ekk91LrMQb\n\n#JackGrealish #England #promise #Finlay #suffer #cerebralPalsy #celebrate #WorldCup2022 #goal #Dance #delighted #unbreakableBond #priceless #connection #PepRaise",
     "candidate_player": "Jack Grealish",
+    "player_id": "32",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "jack grealish|jackgrealish",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_8d1c06dfadd5f3808539"
   },
   {
     "text": "Do you remember \nBefore the euros \nThere was a footballer\nThat nobody knows\nNow it's the World Cup\nAnd he scores his goals\nHis name is Jack Jack \nJack Jack Jack Jack Grealish \nHis name is Jack Jack \nJack Jack Jack Jack Grealish \nAnd you're like\nHe's my baba",
     "candidate_player": "Jack Grealish",
+    "player_id": "32",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "jack grealish",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_d20b758c971d238ecd67"
   },
   {
     "text": "@Wooshell1977 @England @FIFAWorldCup The young team was already their, to be brought together. The fact is - GS does not know what 2 do with them. \n\nGrealish = 2 mins v France\nRashford = 🏴󠁧󠁢󠁥󠁮󠁧󠁿 top goal scorer in tournament- on the bench v Senegal &amp; France\nWilson = not even a real sniff \n\nTook Maddison to silent critics",
     "candidate_player": "Jack Grealish",
+    "player_id": "32",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "grealish",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_625c9b2efb93e73ca417"
   },
   {
     "text": "@jackbraz29 Also, how many assists and goals for England does Mount have in that time? Grealish scored this world Cup, did he not? 🤷‍♂️",
     "candidate_player": "Jack Grealish",
+    "player_id": "32",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "grealish",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_31fe30a5b6e3d614817c"
   },
   {
     "text": "@steviegates @AlexLaneMusix @Us3official @talkSPORT Also your manager subbed off your best player on the game (saka), kept Phoden on while he was doing nothing, Grealish could have probably be given a run instead.. Alexander-arnold the best assister in the world on the bench watching the whole World Cup while you needed goals",
     "candidate_player": "Jack Grealish",
+    "player_id": "32",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "grealish",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_6b72425f367ca3ee8a19"
   },
   {
     "text": "@Vettel_AMR Ronaldo did terrible this World Cup \nPortuguese fans are complaining that Silva ,Cancelo, and Dias didn’t do anything for Portugal. What did Ronaldo do?! \ndived to win a penalty against Ghana\nComplain to Bruno saying that’s his goal\nBe Disrespectful to Santos\nBe Benched\nNow over",
     "candidate_player": "Rúben Dias",
+    "player_id": "10",
+    "position": "Defender",
     "source_file": "tweets_football.csv",
     "matched_aliases": "dias_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_489084d133da94efc393"
   },
   {
     "text": "@AlbicelesteTalk My copa 24 team\n\nDibu\n\nMolina ota/licha romera acuna\nDePaul enzo/parades mac/lo celso\nDi Maria alvarez/lautaro messi / dybala \n\nDon’t include that crap grancho let him play for portughal he can post for ronaldo goal but not a post for his country’s World Cup lol permanent ban him",
     "candidate_player": "Rodrigo De Paul",
+    "player_id": "27",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "depaul",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_a5dcffb89ed022abf210"
   },
   {
     "text": "Ronaldo went to the world cup with\nBernardo silva\nBruno fernandes\nCancelo\nReuben diaz\nJeao felix\nReuben neves\n...and couldn't score ONE proper goal.\n\nWhile Messi carried 21 pieces of wood to the final.\n\nAnd some deluded boys still have the audacity to talk?",
     "candidate_player": "João Cancelo",
+    "player_id": "6",
+    "position": "Defender",
     "source_file": "tweets_football.csv",
     "matched_aliases": "cancelo",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_e5cb4cc638dfef7f73e9"
   },
   {
     "text": "FIFA World Cup 2022: England player ratings vs. USA as Mason Mount, Raheem Sterling struggle in goalless draw\nhttps://t.co/u2d585s09x",
     "candidate_player": "Mason Mount",
+    "player_id": "23",
+    "position": "Midfielder",
     "source_file": "twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv",
     "matched_aliases": "mason mount|mount_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "id_1601843370044923906"
   },
   {
     "text": "@goal @FIFAWorldCup De Paul must be included",
     "candidate_player": "Rodrigo De Paul",
+    "player_id": "27",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "de paul",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_956b29f6f71217ecea8b"
   },
   {
     "text": "SOCCER - Maddison and Walker to miss #England v #Iran says Southgate - @_Hadebe_101 @mfanafu43463007 @Celo_nyawose @FaneleMbuyazi8 @lepidipidi @EggsBenedictZA @AndreH_NZ - #Football #Soccer #WorldCup2022 #Qatar  https://t.co/s7zH5cjJvA",
     "candidate_player": "Kyle Walker",
+    "player_id": "7",
+    "position": "Defender",
     "source_file": "fifa_world_cup_2022_tweets.csv",
     "matched_aliases": "walker_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 2,
+    "retweets": 0,
+    "tweet_key": "hash_ab08baaec7e60ab71820"
   },
   {
     "text": "@anectally @Relish_Juniper @HyderAbbas512 @BarcaWorldwide Musiala is a far better dribble,scores far more goals and gets far assists. This world cup has shown everyone that bellingham and musiala are by far and out the 2 best young midfielders in the world. Gavi and pedri dont come close at all",
     "candidate_player": "Pedri",
+    "player_id": "25",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "pedri",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_bdbe835c214716e04c12"
   },
   {
     "text": "@SaaSGoOfficial @Mascherano Another with Rodrigo De Paul. After being satisfied with cutting the goal nets, he celebrated celebrating Argentina's success in winning the 2022 World Cup by smoking a cigar while clad in the Argentine flag. \n\n0xa372990B798d06c83FD135bEf6D25EC38f1c2484 https://t.co/CsEd91Fi3y",
     "candidate_player": "Rodrigo De Paul",
+    "player_id": "27",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "rodrigo de paul",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_f8de9fd2219a8a89aa4c"
   },
   {
     "text": "Son Heung-min bid farewell to the World Cup with 0 goals #Qatar2022 https://t.co/84Az7iEokw",
     "candidate_player": "Son Heung-min",
+    "player_id": "44",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "son heung min",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_f1b70fb9453d44181065"
   },
   {
     "text": "@tchallaz @OsloBets77 @castrojr76 Joao Mario had a terrible World Cup. Rafa Silva was vacationing in Brazil. He might come out of retirement with the new coach. When I saw Griezmann break the Moroccan defense on that first goal, I thought of Rafa.",
     "candidate_player": "Thiago Silva",
+    "player_id": "11",
+    "position": "Defender",
     "source_file": "tweets_football.csv",
     "matched_aliases": "silva_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_4c1b1bdbfae5cab5e3e6"
   },
   {
     "text": "I never thought alisson backer or Ederson deserve Brazilian National team.\n\nLook our 2002,1994,1970's goal keeper,and Allison performance in world cup. Thats biggest disappointed for brazilian for this kind Keeper who never deserve our National team. https://t.co/RYFBVOcchZ",
     "candidate_player": "Alisson",
+    "player_id": "1",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "alisson",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_a184490475eab2f3a8e9"
   },
   {
     "text": "Kyle Walker ahead of schedule with his rehab by a couple of games. Key because he will need some bounce games in the group stages. \n\n#WorldCup2022 #WorldCup https://t.co/1fD6GRujIX",
     "candidate_player": "Kyle Walker",
+    "player_id": "7",
+    "position": "Defender",
     "source_file": "fifa_world_cup_2022_tweets.csv",
     "matched_aliases": "kyle walker",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 8,
+    "retweets": 0,
+    "tweet_key": "hash_c811495d6cd5ab26c351"
   },
   {
     "text": "OFFICIAL: Eden Hazard has announced his retirement from the Belgium national team. \n\n👕 126 Games\n⚽️ 33 goals \n🎯 36 assists\n\nWe won't forget how phenomenal he was at World Cup 2018 🥺 https://t.co/KtW2dUAuYw",
     "candidate_player": "Eden Hazard",
+    "player_id": "30",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "eden hazard|hazard_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_cca5bf8b7d781f8d0a57"
   },
   {
     "text": "World Cup 2022: Thibaut Courtois blunder gifts Abdelhamid Sabiri goal for Morocco against Belgium https://t.co/8PN6ye4nx6",
     "candidate_player": "Thibaut Courtois",
+    "player_id": "4",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "thibaut courtois",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_d3c8a2fc635bbf483fe5"
   },
   {
     "text": "@BelRedDevils @hazardeden10 Eden Hazard at the 2018 World Cup: \n\n🔘 6 Games \n🔘 40 Successful Take-Ons (Most) \n🔘 27 Fouls Won (Most) \n🔘 17 Shots\n🔘 15 Chances Created \n🔘 6 Shots On Target \n⚽️ 3 Goals\n🅰️ 2 Assists \n\nHe was brilliant. 👏 https://t.co/kZ2CgtKhnN",
     "candidate_player": "Eden Hazard",
+    "player_id": "30",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "eden hazard|hazard_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_ddc218a9ffae667361ba"
   },
   {
     "text": "BREAKING ❗️\n\nAfter 126 caps and 33 goals, Belgium captain Eden Hazard has confirmed his retirement from international football following his nation's disastrous 2022 FIFA World Cup campaign. #SLInt \n\nMORE: https://t.co/TavqB85Kbz https://t.co/kTdbxezNdD",
     "candidate_player": "Eden Hazard",
+    "player_id": "30",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "eden hazard|hazard_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_5ad59510a6af8512ecd6"
   },
   {
     "text": "Brazil is gonna win the world cup\nNot only that Alisson is gonna concede not more than 1 goal in the whole tournament fr",
     "candidate_player": "Alisson",
+    "player_id": "1",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "alisson",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_2a97a43d8dc35ef25318"
   },
   {
     "text": "@festusmusembi7 @RalphInUEFA @HikuReviews @The__JOZEF @_DeclanRice Surely mbappe will score more goals than messi if PSG win UCL mbappe is surely the world best player , if another clubs win the UCL it will determine the performances of others players , France won the world cup 2018 modric win the world best .",
     "candidate_player": "Declan Rice",
+    "player_id": "16",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "declanrice",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_87dd904172535603ffae"
   },
   {
     "text": "@LeModFootball France was there for the taking but we failed due to an inept manager. Failed to bring on the leagues most creative players in Trent and Madison when we needed a goal. A very similar thing happened in the euros and the previous world cup. England will never win anything with him",
     "candidate_player": "Trent Alexander-Arnold",
+    "player_id": "12",
+    "position": "Defender",
     "source_file": "tweets_football.csv",
     "matched_aliases": "trent",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_ddd5160886bdba98de31"
   },
   {
     "text": "Update\n\nWorld Cup Leaderboard 🏆\n-Line Breakers\n\n• Pedri completed the most line breaks\n• Mbappe with the most defensive line breaks which are less common but offer much greater threats on goal. He also progressed the ball most thru carries. \n\n#FIFAWorldCup  #Qatar2022 https://t.co/jdvxqozzpL https://t.co/1j6iL2bKsk",
     "candidate_player": "Pedri",
+    "player_id": "25",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "pedri",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_72f4706d1dc6aa2b92d1"
   },
   {
     "text": "@FIFAWorldCup Argentina Conceded Goals\n\n1st one after Di Maria Substituted\n3nd one after De Paul Substituted😌\n\n#FIFAWorldCup #FIFAWorldCup #ArgentinaVsFrance",
     "candidate_player": "Rodrigo De Paul",
+    "player_id": "27",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "de paul",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_0a23cbfc6fcdf62e8de6"
   },
   {
     "text": "@NgwaneTdn @Demarinuh @CFCRaf2 Rice is always good for England, a ball dominant side. All you’ve seen of amrabat is this World Cup. Using that same logic that means ziyech should stay and Kane is a poor goal scorer. Amrabat is good but don’t overreact because he’s in form at the right time",
     "candidate_player": "Declan Rice",
+    "player_id": "16",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "rice_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_852855e47c2196af0d5c"
   },
   {
     "text": "@jrdadoo @goal @FIFAWorldCup Mama africa will not confess that Moroccan's player are better than casemiro and jurano...,",
     "candidate_player": "Casemiro",
+    "player_id": "15",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "casemiro",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_9cf95601fd7070ad7368"
   },
   {
     "text": "Belgium playmaker Eden Hazard retires at 31.\nHazard, an offensive midfielder or winger, made his Belgium debut at age 17 and has since won 126 caps, scoring 33 goals and assisting 36 times.\nHis decision comes following Belgium's World Cup group-stage exit.\n#NewsCentralTV https://t.co/fFinwCWwHo",
     "candidate_player": "Eden Hazard",
+    "player_id": "30",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "eden hazard|hazard_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_2cd59d4ffb6ea32a19ea"
   },
   {
     "text": "At this rate Alisson will soon be scoring his first World Cup goal. #BRAKOR",
     "candidate_player": "Alisson",
+    "player_id": "1",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "alisson",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_ceef85576a7cd35b15fd"
   },
   {
     "text": "@TeamCRonaldo *Eusébio da Silva Ferreira*\n\n*Eusébio* helped Portugal reach third place at the 1966 FIFA World Cup, being the top goalscorer of the tournament with nine goals. He won the Ballon d'Or in 1965 and was runner-up in 1962 and 1966....",
     "candidate_player": "Bernardo Silva",
+    "player_id": "13",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "silva_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_0da953dff2c51a5322fd"
   },
   {
     "text": "Bruno Fernandes is the best midfielder in the current worldcup,he is Portugal man for big occasions ,his stats  is amazing 🔥\n3 starts.\n3 assists\n2 goals\n#Ronaldo #Portugal #ramos #hakimi #Morocco #PORSWI #PeterDrury #fernandosantos #Barcelona #LuisEnrique #amrabat #dalot #pedri https://t.co/B2ctpl1dzo",
     "candidate_player": "Pedri",
+    "player_id": "25",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "pedri",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_499cba94004cef6a74cb"
   },
   {
     "text": "mason mount mase edit fancam all these nights chelsea fc england national team qatar world cup 2023 football soccer goal champions league premier league https://t.co/5TxymhalOn",
     "candidate_player": "Mason Mount",
+    "player_id": "23",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mason mount|mount_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_3099496047a7e402bcda"
   },
   {
     "text": "WATCH: Kylian Mbappe’s mouthwatering pace beats Kyle Walker during England vs France FIFA World Cup 2022 quarterfinals https://t.co/uHPbJgX12c",
     "candidate_player": "Kyle Walker",
+    "player_id": "7",
+    "position": "Defender",
     "source_file": "twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv",
     "matched_aliases": "kyle walker|walker_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 1,
+    "retweets": 0,
+    "tweet_key": "id_1601737596400435200"
   },
   {
     "text": "#WorldCup2022final coman Deschamps  Camavinga \nKylian Mbappe  at only 23 yrs (turning 24 in a day) becomes the youngest player to score  10 or more goals in the world cup. #QatarWorldCup2022",
     "candidate_player": "Eduardo Camavinga",
+    "player_id": "17",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "camavinga",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_d3e6a223356dd700f4a5"
   },
   {
     "text": "@goal @FIFAWorldCup De Paul to replace Amrabat",
     "candidate_player": "Rodrigo De Paul",
+    "player_id": "27",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "de paul",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_df57d6030d07685155fd"
   },
   {
     "text": "How do you even allow such a goal 8n a world cup match, Ramsdale is clear.",
     "candidate_player": "Aaron Ramsdale",
+    "player_id": "0",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "ramsdale",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_1c5f0c5405291d3c3627"
   },
   {
     "text": "FIFA WC: He’s a big character and a leader, says England's Kyle Walker backing Harry Kane after penalty miss\n#FIFAWorldCup #Qatar2022 \nhttps://t.co/jcwB2bMikZ",
     "candidate_player": "Kyle Walker",
+    "player_id": "7",
+    "position": "Defender",
     "source_file": "twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv",
     "matched_aliases": "kyle walker|walker_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 5,
+    "retweets": 4,
+    "tweet_key": "id_1601923917962444800"
   },
   {
     "text": "Ivan Peršić is the first player in Croatia's history to score 10 major tournament goals for his country.\n\nSecuring World Cup Quater Final 💪\n\nThiago Silva | Brazil | Casemiro | Penalty | Neymar | Raheem Sterling | Fofana | Vinicius | Richarlison | Gvardiol | Alisson | Paqueta https://t.co/jmoVPPbohP",
     "candidate_player": "Alisson",
+    "player_id": "1",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "alisson",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_9ff1d099e3a4554056c8"
   },
   {
     "text": "🚨 NKUNKU IS OUT THE #WORLDCUP\n\n🔝 The Bundesliga’s top goalscorer this season (12 goals in 15 games) has been ruled OUT of the French squad following a leg-injury caused by Camavinga in training!\n\nHow big a blow could he be?\n\n#Qatar2022 #Nkunku #ChristopherNkunku #France https://t.co/y4TfnwyPD6",
     "candidate_player": "Eduardo Camavinga",
+    "player_id": "17",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "camavinga",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_fc3d3b4058f8f2175082"
   },
   {
     "text": "Moises caicedo of Ecuador is special. Plays fr brighton but should get a big move next transfer window. Perfect for Liverpool. #QatarWorldCup2022 #WorldCup2022 #FIFAWorldCup2022 #Qatar2022",
     "candidate_player": "Moisés Caicedo",
+    "player_id": "24",
+    "position": "Midfielder",
     "source_file": "fifa_world_cup_2022_tweets.csv",
     "matched_aliases": "moises caicedo",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_2839559fde88acbfe349"
   },
   {
     "text": "Man Utd vs Burnley\n\nMan Utd will be relying on Anthony Martial and Marcus Rashford for goals now Cristiano Ronaldo is gone\n\nFernandes and Casemiro are straight back in the starting XI after their World Cup \n\nVincent Kompany admits his side may have to adapt their tactics https://t.co/b8zdPW189m",
     "candidate_player": "Casemiro",
+    "player_id": "15",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "casemiro",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_37c4cb0d40267937deb9"
   },
   {
     "text": "Julio Cesar:\n\n“I think that, as a whole, Alisson [Becker] had a nice World Cup. In the first two games he wasn’t tested much, there were almost no shots on goal, in the third game Ederson came in and against Korea he had a great game.” #lfc [globo esporte via liverpool echo] https://t.co/3MZj3tQFih",
     "candidate_player": "Ederson",
+    "player_id": "2",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "ederson",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_7cbd4bb376ef297cae64"
   },
   {
     "text": "Sonny! With almost a goal! Alisson amazing save. #WorldCup",
     "candidate_player": "Son Heung-min",
+    "player_id": "44",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "sonny",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_3ea4f41a146def8f9a18"
   },
   {
     "text": "40 year old Pepe more goals than Mason mount in this World Cup",
     "candidate_player": "Mason Mount",
+    "player_id": "23",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mason mount|mount_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_69146beb99ca4673bc3c"
   },
   {
     "text": "#CristianoRonaldo can still play 2026 world cup\n\nPortugal was very stong this World cup with players like Bruno Fernandez,Bernardo Silva,jao Felix\nPepe etc.\n\nRonaldo has got the fitness that is required by a 40 year old man.\nMessi too can play 2026 fifa",
     "candidate_player": "Bernardo Silva",
+    "player_id": "13",
+    "position": "Midfielder",
     "source_file": "twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv",
     "matched_aliases": "bernardo silva|bernardo_contextual|silva_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "id_1601806661605552128"
   },
   {
     "text": "@HikuReviews @The__JOZEF @_DeclanRice You might want to check the stats on that, Mbappe is ahead of messi 23 vs 23 plus only one World Cup goal behind him",
     "candidate_player": "Declan Rice",
+    "player_id": "16",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "declanrice",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_09211ae8018a5a6196ae"
   },
   {
     "text": "Eden Hazard announces retirement from international football after 14 years, 126 caps and 33 goals. \n\nA true great of Belgian football, but this World Cup as a tournament too far. A shadow of the player he was in 2018 -- and his team-mates knew it #BEL\n\nhttps://t.co/dBZCpsQm7g",
     "candidate_player": "Eden Hazard",
+    "player_id": "30",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "eden hazard|hazard_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_168b04a24d42d5b1b349"
   },
   {
     "text": "@FIFAWorldCup Bono was awarded best GK in LaLiga last year and was the best in the world cup receiving the least number of goals in 7 matchs, Bono is the best , anyone saying otherwise is just relying on \"NAMES\" like \"COURTOIS from Real Madrid\" or \"that ARGENTINAs gk\"\n end of the debate,",
     "candidate_player": "Thibaut Courtois",
+    "player_id": "4",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "courtois",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_01f78352a494128f143c"
   },
   {
     "text": "Has to be the Greatest Goal keeper we'll see in our lifetime! Absolutely World 🌎 class! @Alissonbecker Now go win the World cup🏆 You deserve it🙌♥️ #Brazil #WorldCup2022 👊👊👊 https://t.co/UaRWb2rRYF",
     "candidate_player": "Alisson",
+    "player_id": "1",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "alissonbecker",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_ba83b9543995cbfb63d8"
   },
   {
     "text": "Ramsdale didnt concede a single goal in the whole world cup but Fifa gave the best keeper to Emi Martinez because he likes Messi\n\nTell me Fifa doesnt hate Arsenal",
     "candidate_player": "Aaron Ramsdale",
+    "player_id": "0",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "ramsdale",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_d356216e2ff2c3d0197e"
   },
   {
     "text": "Mitoma &amp; Tanaka are besties n love soccer since childhood, their dream had always been to perform 2gether in World Cup. In match against Spain, Mitoma kicked ball back to wi only 1.88mm apart from line (VAR check) and Tanaka scored the goal that brought Jpn's victory. ANIME KAA😭 https://t.co/X7zV0rZB3e",
     "candidate_player": "Kaoru Mitoma",
+    "player_id": "34",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mitoma",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_d84c6ae529cd010f2a6c"
   },
   {
     "text": "LAUGHING PHOTO: Kylian Mbappe's reaction after Kyle Walker missed a goal during France vs England at 2022 FIFA World Cup in Qatar goes viral\n\nhttps://t.co/Wdf1hGKbrm",
     "candidate_player": "Kyle Walker",
+    "player_id": "7",
+    "position": "Defender",
     "source_file": "tweets_football.csv",
     "matched_aliases": "kyle walker|walker_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_850c59091a05f987774a"
   },
   {
     "text": "QATAR V ECUADOR \n\nMan of the match betting (bet365)\n\nMoises Caicedo 11/2\nEnner Valencia 11/2\nSaad Al sheeb 16/1\n\n#football #WorldCup2022 #FIFAWorldCup #bettingtips #bettingtwitter",
     "candidate_player": "Moisés Caicedo",
+    "player_id": "24",
+    "position": "Midfielder",
     "source_file": "fifa_world_cup_2022_tweets.csv",
     "matched_aliases": "moises caicedo",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_28eb8d4242e858269760"
   },
   {
     "text": "#WorldCup2022 DOHA, Qatar -- The Netherlands is looking to make two statements in its opening World Cup game on Monday against a Senegal team that has to quickly get over the loss of star forward Sadio Mané.",
     "candidate_player": "Sadio Mané",
+    "player_id": "43",
+    "position": "Forward",
     "source_file": "fifa_world_cup_2022_tweets.csv",
     "matched_aliases": "sadio mane",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_3cf141d2cb3c2a270e04"
   },
   {
     "text": "@Luu_ZA_ @robertbendix @_DeclanRice There are a lot of players out there posting better numbers than Diego\n\nDid you think Gary Lineker was fit to lace his boots because he also scored 6 goals in the 86’ World Cup and did so without cheating?",
     "candidate_player": "Declan Rice",
+    "player_id": "16",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "declanrice",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_5a17f7f61ca71729171a"
   },
   {
     "text": "If Football was a one man sport, Messi deserves all the world cups he can get, but telling me scrubs like that goal keeper, Otamendi, de Paul, paredes and those Asian Argentines/ even the real Argentines gets to win and celebrate a World Cup would never sit right with me.",
     "candidate_player": "Rodrigo De Paul",
+    "player_id": "27",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "de paul",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_fd0d63c33a1f9665ac54"
   },
   {
     "text": "@JAlvarez_SZN Him not going to the World Cup is a problem how? Salah, Diaz, Firmino,Robertson are not at the World Cup are they not good players? Henderson has the same no of goals as Foden is he a better player? Cancelo has zero minutes are you celebrating him being on a Portugal bench?",
     "candidate_player": "João Cancelo",
+    "player_id": "6",
+    "position": "Defender",
     "source_file": "tweets_football.csv",
     "matched_aliases": "cancelo",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_c9501b9c8a5a4dd1b412"
   },
   {
     "text": "@FIFAWorldCup Forward: Mbappe\nMid field: Casemiro\nDefense: Militao\nGoal Keeping: Zigi",
     "candidate_player": "Casemiro",
+    "player_id": "15",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "casemiro",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_aac709919a83734dd35c"
   },
   {
     "text": "Manuel Akanji after seeing Ruben Dias, Joao Cancelo and Bernardo Silva back at the City Football Academy after they helped Portugal to smash 6 goals past him at the World Cup:\n\n😂😂😂😂 https://t.co/aWh4sQyd99",
     "candidate_player": "Rúben Dias",
+    "player_id": "10",
+    "position": "Defender",
     "source_file": "tweets_football.csv",
     "matched_aliases": "dias_contextual|ruben dias",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_159412dcc362e4e72691"
   },
   {
     "text": "@gabnas411 @FIFAWorldCup Courtois won best goalkeeper in last tournament despite giving up more goals than Bono and finished third.",
     "candidate_player": "Thibaut Courtois",
+    "player_id": "4",
+    "position": "Goalkeeper",
     "source_file": "tweets_football.csv",
     "matched_aliases": "courtois",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_f73f9eb28eeb67fcaf5f"
   },
   {
     "text": "@Topbay69 @WestHam @_DeclanRice Brother if there isn't a pass forward you have to go backwards 😂 they wasn't playing fifa against AI 😂",
     "candidate_player": "Declan Rice",
+    "player_id": "16",
+    "position": "Midfielder",
     "source_file": "twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv",
     "matched_aliases": "declanrice",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 4,
+    "retweets": 0,
+    "tweet_key": "id_1601892890611154945"
   },
   {
     "text": "@Jahid27 @DryIsNewIt @bigmanpappi @_DeclanRice World cup is after every four years with players getting to play not even ten matches in total. Scoring goals at the platform is wonderful but that alone should not be the basis for calling someone's \"era\". Messi at this age performed consistently against top league competitors.",
     "candidate_player": "Declan Rice",
+    "player_id": "16",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "declanrice",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_b0dad1a1a92521c207b1"
   },
   {
     "text": "Neymar, Richarlison, Casemiro and every goal by Brazil in the 2022 FIFA World Cup | FOX Soccer – FOX Sports https://t.co/2FmmBigLkq",
     "candidate_player": "Casemiro",
+    "player_id": "15",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "casemiro",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_92767e740cbd8eb65c56"
   },
   {
     "text": "Imagine if Messi had a team like Portugal. Having Ballon dor winner Figo to Bernardo Silva, cancelo and yet still have 0 goals 0 assist in World Cup knockout 😭😭😭 biggest international failure https://t.co/vn4RJCcaL8",
     "candidate_player": "Bernardo Silva",
+    "player_id": "13",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "bernardo silva|bernardo_contextual|silva_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_09508a124937d60cc4f1"
   },
   {
     "text": "Silva represented Portugal at every youth level. He participated with the under-20 team at the 2015 FIFA World Cup, scoring four goals in the group stage as the nation reached the quarter-finals.",
     "candidate_player": "Bernardo Silva",
+    "player_id": "13",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "silva_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_0d90bb3f1fe4760d9c3d"
   },
   {
     "text": "(World Cup)\n48u\nEngland to advance +105\n\n36u\nEngland 90 min ML +195\n\n25u\nMorroco and draw double chance +110\nMason Mount goal or assist +200",
     "candidate_player": "Mason Mount",
+    "player_id": "23",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mason mount|mount_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_49525bdd0d94f1b30e35"
   },
   {
     "text": "@ChelseaFC @ChelseaFCW @MasonMount This one still useless even after World Cup he is nothing. Now this team really need creative midfield just like Leo Messi in Argentina Team. Must through pass ball must feeder the striker to make a chances to score a goal.",
     "candidate_player": "Mason Mount",
+    "player_id": "23",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "masonmount",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_ab365c194427377e4667"
   },
   {
     "text": "@EONBlogger @HikuReviews @The__JOZEF @_DeclanRice U are unwise for calling people fool. If Mbabel was in Barcelona, Real Madrid, Manchester city at his young age as Ronaldo and mercy and other top players are, he would have surpassed them at his age. Also don't forget that he has more goals in 2 world Cup compare to Messi in 5.",
     "candidate_player": "Declan Rice",
+    "player_id": "16",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "declanrice",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_a69318cf3a1cd412a894"
   },
   {
     "text": "@maclerry @General8914 @brfootball @ManUtd Guy rest. It's pretty obvious u don't even know what going on. U just want to argue. Depay didn't play for ManU when Hazard was in the EPL? Rashford has more world cup goals than Rooney, does that mean he's better? And lastly I'm not a Chelsea fan.",
     "candidate_player": "Eden Hazard",
+    "player_id": "30",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "hazard_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_a527f03f7d186bdf2d51"
   },
   {
     "text": "The best goal on Quatar Worldcup 2022 is HeeChan Hwang!\nWhen all the people focus on Son, HeeChan shot the goal! It lets Korea team to go to 16th round! So meaningful❤️‍🔥\n#Worldcup #NFT #CommunitynEarn #AnotherWorld #Metaverse @kei_AWM @ANOTHERworldgm #Korea #HwangHeechan https://t.co/LpOuLe6dmH",
     "candidate_player": "Son Heung-min",
+    "player_id": "44",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "son_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_2d6e382867b21e11e5ad"
   },
   {
     "text": "Mitoma!!! That would have been the best ever World Cup goal!!",
     "candidate_player": "Kaoru Mitoma",
+    "player_id": "34",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mitoma",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_2ebada3128cdf170ff6a"
   },
   {
     "text": "Gabriel Martinelli &amp; Brazil are through to the World Cup quarter-finals after they beat South Korea &amp; Son by four goals to one…\n\nKeep going, @gabimartinelli💪🏼🇧🇷 https://t.co/H8ZsthC5Gu",
     "candidate_player": "Son Heung-min",
+    "player_id": "44",
+    "position": "Forward",
     "source_file": "tweets_football.csv",
     "matched_aliases": "son_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_b2163025f63981b9bb9e"
   },
   {
     "text": "@BBCMOTD Bent ref. The blatant foul on the edge of the area rejected by VAR, the blatant foul not given that led to Frances breakaway goal, not giving France a red card after flattening Mount in the area. FIFA rules. England deserved at least extra time. They can hold their heads high.",
     "candidate_player": "Mason Mount",
+    "player_id": "23",
+    "position": "Midfielder",
     "source_file": "twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv",
     "matched_aliases": "mount_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 5,
+    "retweets": 0,
+    "tweet_key": "id_1601885203387088896"
   },
   {
     "text": "@TheGladiatorFan @goal Spain came to the world cup looking to the future with pedri &amp; gavi, dropping off the like of thiago alcantara",
     "candidate_player": "Pedri",
+    "player_id": "25",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "pedri",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_139d9aff740a91690015"
   },
   {
     "text": "Brazil with a 🔥🔥🔥🔥 performance, scored 4 Goals against South Korea to face Croatia in the next Round.\n\nWill Brazil win the World cup ?\n\n#brazil #teambrazil #neymar #richarlison #viniciusjr #raphinha #casemiro #marquinhos #thiago #heungminson #teamkorea #korea https://t.co/xvHKwzwgvj",
     "candidate_player": "Casemiro",
+    "player_id": "15",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "casemiro",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_f884679095bf66d8abdc"
   },
   {
     "text": "Argentina 🇦🇷 Vs France 🇫🇷 \n                      2-0\n\nSecond half goals \nDe Paul ⚽️ \nMessi ⚽️ &amp; 🅰️\n@FIFAWorldCup @alimo_philip @ESPNFC",
     "candidate_player": "Rodrigo De Paul",
+    "player_id": "27",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "de paul",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_dc6cfc19aec39b896a08"
   },
   {
     "text": "In 1⃣9⃣5⃣0⃣ \nAdemir Marques de Menezes of Brazil.  9⃣ Goals: in a single world cup.\n1⃣6⃣yrs later In \n1⃣9⃣6⃣6⃣ Eusébio da Silva Ferreira of Portugal. 9⃣Goals.\nToday December 8th 2022 makes it 5⃣6⃣yrs and #KYLIAN_MBAPE  made history. 9⃣ Goals in a single world cup https://t.co/a68lprCG03",
     "candidate_player": "Bernardo Silva",
+    "player_id": "13",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "silva_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_1766c3fc0fb56e2bfb77"
   },
   {
     "text": "De Paul is making the World Cup tournament very easy for Lionel Messi and Messi always reciprocate that by Scoring unimaginable goals at unexpected minute of the matches...\nBrother's love is Stronger 💪\n   @TeamMessi",
     "candidate_player": "Rodrigo De Paul",
+    "player_id": "27",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "de paul",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_eb2534eeb716d2dd0f6b"
   },
   {
     "text": "If Brazil win the World Cup conceding 2 goals or less, are y’all gon run Thiago Silva his Balon D’or? 👀👀",
     "candidate_player": "Thiago Silva",
+    "player_id": "11",
+    "position": "Defender",
     "source_file": "tweets_football.csv",
     "matched_aliases": "silva_contextual|thiago silva",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_a169ce932b185413c038"
   },
   {
     "text": "Christian Pulisic still has more World Cup goals than Mason Mount",
     "candidate_player": "Mason Mount",
+    "player_id": "23",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "mason mount|mount_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias|safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_59f225a024ce12dbc4bf"
   },
   {
     "text": "Woke up early to run an errand and have a latte at an Italian café. 🌞☕ Chatted with an Italian-American worker about Italy ⚽️, #AntonioConte, #GianPieroVentrone, Sonny, Spurs, and South Korea. 🇮🇹❤⚽️🇰🇷\n\nToo early for a pastry. 😉🍰\n\n#WorldCup2022 (Day 1) https://t.co/ejFBpjSSMY",
     "candidate_player": "Son Heung-min",
+    "player_id": "44",
+    "position": "Forward",
     "source_file": "fifa_world_cup_2022_tweets.csv",
     "matched_aliases": "sonny",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 5,
+    "retweets": 0,
+    "tweet_key": "hash_7464d13173c6b6684970"
   },
   {
     "text": "Football is a Team Game!\n\nFor every Messi \n\n(Talented Creative player who can win the game by scoring &amp; assisting goals)\n\nYou need a Depaul\n\n(Hardworking player who can prevent loss by running allaround &amp; moving the ball)\n\n#WorldCup #Argentina #ArgentinaVsCroatia #MessiDePaul https://t.co/DtYd7KSYfq",
     "candidate_player": "Rodrigo De Paul",
+    "player_id": "27",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "depaul",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_ff14605ef18278a71c26"
   },
   {
     "text": "@abrabor_ Whilst He is scoring goals in  world Cup quarter finals Pedri is also watching him on TV",
     "candidate_player": "Pedri",
+    "player_id": "25",
+    "position": "Midfielder",
     "source_file": "tweets_football.csv",
     "matched_aliases": "pedri",
-    "match_method": "",
-    "likes": 0
+    "match_method": "safe_alias",
+    "best_match_score": 100.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_0c50e01dfd65eb3253a9"
   },
   {
     "text": "@Luke_MCFC Foden took City to the first ever UCL final &amp; Scored 4 goal in 7 world cup qualifiers\n\nCurrently 3G/A in 3 games..just that he plays for City no city player is actually getting the hype.\nJust immense pressure.\n\nLast week foden\nNow walker and people just think its normal",
     "candidate_player": "Kyle Walker",
+    "player_id": "7",
+    "position": "Defender",
     "source_file": "tweets_football.csv",
     "matched_aliases": "walker_contextual",
-    "match_method": "",
-    "likes": 0
+    "match_method": "contextual_alias",
+    "best_match_score": 90.0,
+    "likes": 0,
+    "retweets": 0,
+    "tweet_key": "hash_9aec51d1f02ebb2139c9"
   }
 ]

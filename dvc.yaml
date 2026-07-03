@@ -1,0 +1,49 @@
+stages:
+  unify_raw_tweets:
+    cmd: python src/data/unify_raw_tweets.py --raw-dir data/raw/tweets --output data/interim/tweets_unified_english_dedup.csv --detect-language-for-unknown
+    deps:
+      - src/data/unify_raw_tweets.py
+      - data/raw/tweets
+    outs:
+      - data/interim/tweets_unified_english_dedup.csv
+
+  match_player_mentions:
+    cmd: python src/data/match_player_mentions.py --tweets data/interim/tweets_unified_english_dedup.csv --players data/reference/players.csv --interim-dir data/interim --reports-dir reports
+    deps:
+      - src/data/match_player_mentions.py
+      - data/interim/tweets_unified_english_dedup.csv
+      - data/reference/players.csv
+    outs:
+      - data/interim/matched_tweets_long_for_manual_labeling.csv
+      - data/interim/matched_tweets_wide_for_manual_labeling.csv
+      - data/interim/player_mentions_long_only_keys.csv
+    metrics:
+      - reports/player_match_summary.csv:
+          cache: false
+      - reports/alias_match_summary.csv:
+          cache: false
+
+  prepare_labeling_tasks:
+    cmd: python src/data/prepare_labeling_tasks.py --input data/interim/matched_tweets_long_for_manual_labeling.csv --output data/labeling/tasks/fanpulse_labeling_tasks_v1.json
+    deps:
+      - src/data/prepare_labeling_tasks.py
+      - data/interim/matched_tweets_long_for_manual_labeling.csv
+    outs:
+      - data/labeling/tasks/fanpulse_labeling_tasks_v1.json:
+          cache: false
+
+  build_dataset_v1:
+    cmd: python src/data/build_processed_dataset.py --input data/labeled/exports/label_studio_export_v1.json --output data/processed/fanpulse_dataset_v1.csv
+    deps:
+      - src/data/build_processed_dataset.py
+      - data/labeled/exports/label_studio_export_v1.json
+    outs:
+      - data/processed/fanpulse_dataset_v1.csv
+
+  build_dataset_v2:
+    cmd: python src/data/build_processed_dataset.py --input data/labeled/exports/label_studio_export_v2.json --output data/processed/fanpulse_dataset_v2.csv
+    deps:
+      - src/data/build_processed_dataset.py
+      - data/labeled/exports/label_studio_export_v2.json
+    outs:
+      - data/processed/fanpulse_dataset_v2.csv

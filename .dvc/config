@@ -1,0 +1,5 @@
+[core]
+    remote = azure_remote
+['remote "azure_remote"']
+    url = azure://fanpulse-dvc/data
+    account_name = fanpulsemlopssa

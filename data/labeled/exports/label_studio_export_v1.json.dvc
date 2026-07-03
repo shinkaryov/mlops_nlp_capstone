@@ -1,0 +1,5 @@
+outs:
+- md5: bf737f5bb804e121f42613d1857e915f
+  size: 81770
+  hash: md5
+  path: label_studio_export_v1.json

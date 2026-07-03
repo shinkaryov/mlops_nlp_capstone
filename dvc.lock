@@ -1,0 +1,114 @@
+schema: '2.0'
+stages:
+  unify_raw_tweets:
+    cmd: python src/data/unify_raw_tweets.py --raw-dir data/raw/tweets --output 
+      data/interim/tweets_unified_english_dedup.csv 
+      --detect-language-for-unknown
+    deps:
+    - path: data/raw/tweets
+      hash: md5
+      md5: f0f16f42db3c939412f34009b632d1c7.dir
+      size: 87501539
+      nfiles: 5
+    - path: src/data/unify_raw_tweets.py
+      hash: md5
+      md5: dfd28753faefb37f7b5f257ea950bba2
+      size: 14178
+    outs:
+    - path: data/interim/tweets_unified_english_dedup.csv
+      hash: md5
+      md5: 53b48a953e4e58bb91f419059cf697f3
+      size: 84667443
+  match_player_mentions:
+    cmd: python src/data/match_player_mentions.py --tweets 
+      data/interim/tweets_unified_english_dedup.csv --players 
+      data/reference/players.csv --interim-dir data/interim --reports-dir 
+      reports
+    deps:
+    - path: data/interim/tweets_unified_english_dedup.csv
+      hash: md5
+      md5: 53b48a953e4e58bb91f419059cf697f3
+      size: 84667443
+    - path: data/reference/players.csv
+      hash: md5
+      md5: 2d913426d89c016d1d3a0253a1364bc6
+      size: 1226
+    - path: src/data/match_player_mentions.py
+      hash: md5
+      md5: 5b6d12cef6f3cb7b3321613ad25a0f07
+      size: 24074
+    outs:
+    - path: data/interim/matched_tweets_long_for_manual_labeling.csv
+      hash: md5
+      md5: 2dcffdac3bffe57e3aca118da1691f92
+      size: 43083859
+    - path: data/interim/matched_tweets_wide_for_manual_labeling.csv
+      hash: md5
+      md5: 081d8e98ac911cd1071c5089f80ec8ba
+      size: 15786415
+    - path: data/interim/player_mentions_long_only_keys.csv
+      hash: md5
+      md5: ae6099ca54b99e84009337dea000a810
+      size: 4660097
+    - path: reports/alias_match_summary.csv
+      hash: md5
+      md5: 6e9523dbf29fadc476c1f4cb6cb6e63b
+      size: 75914
+    - path: reports/player_match_summary.csv
+      hash: md5
+      md5: da2eed512fe356b983f5f051b73f15ef
+      size: 18684
+  prepare_labeling_tasks:
+    cmd: python src/data/prepare_labeling_tasks.py --input 
+      data/interim/matched_tweets_long_for_manual_labeling.csv --output 
+      data/labeling/tasks/fanpulse_labeling_tasks_v1.json
+    deps:
+    - path: data/interim/matched_tweets_long_for_manual_labeling.csv
+      hash: md5
+      md5: 2dcffdac3bffe57e3aca118da1691f92
+      size: 43083859
+    - path: src/data/prepare_labeling_tasks.py
+      hash: md5
+      md5: 6067b0523534c7c6965406d55e8e9d0f
+      size: 4629
+    outs:
+    - path: data/labeling/tasks/fanpulse_labeling_tasks_v1.json
+      hash: md5
+      md5: 95bd805babc9101b169c616e24c80284
+      size: 132990
+  build_dataset_v1:
+    cmd: python src/data/build_processed_dataset.py --input 
+      data/labeled/exports/label_studio_export_v1.json --output 
+      data/processed/fanpulse_dataset_v1.csv
+    deps:
+    - path: data/labeled/exports/label_studio_export_v1.json
+      hash: md5
+      md5: bf737f5bb804e121f42613d1857e915f
+      size: 81770
+    - path: src/data/build_processed_dataset.py
+      hash: md5
+      md5: efd5ee085b4b4cab49fe28f4d988d8fa
+      size: 2582
+    outs:
+    - path: data/processed/fanpulse_dataset_v1.csv
+      hash: md5
+      md5: 4cb138c2135a40d1f1f503ac2deef3e4
+      size: 13577
+  build_dataset_v2:
+    cmd: python src/data/build_processed_dataset.py --input 
+      data/labeled/exports/label_studio_export_v2.json --output 
+      data/processed/fanpulse_dataset_v2.csv
+    deps:
+    - path: data/labeled/exports/label_studio_export_v2.json
+      hash: md5
+      md5: 4498a24e4b207eeeb4d5306f77be1c3b
+      size: 395457
+    - path: src/data/build_processed_dataset.py
+      hash: md5
+      md5: efd5ee085b4b4cab49fe28f4d988d8fa
+      size: 2582
+    outs:
+    - path: data/processed/fanpulse_dataset_v2.csv
+      hash: md5
+      md5: 49a251bd28bea86da0895c072383c450
+      size: 71577

@@ -1,0 +1,24 @@
+project_name: fanpulse-worldcup-mlops
+run_name: tfidf_lr_6class_word_char
+
+data_path: data/processed/fanpulse_dataset_v2.csv
+target_mode: 6class
+
+model_type: tfidf_logreg
+feature_mode: word_char
+word_ngram_min: 1
+word_ngram_max: 2
+char_ngram_min: 3
+char_ngram_max: 5
+max_features: 20000
+
+C: 1.0
+class_weight: balanced
+max_iter: 2000
+
+test_size: 0.25
+random_state: 42
+
+artifact_name: fanpulse-impression-classifier
+register_aliases:
+  - latest

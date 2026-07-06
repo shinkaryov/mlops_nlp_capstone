@@ -1,0 +1,5 @@
+outs:
+- md5: 98ba1fe22169caf156b0fedecc086688
+  size: 15772
+  hash: md5
+  path: player_power_rankings_v1.csv

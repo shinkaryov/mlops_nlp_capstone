@@ -47,7 +47,19 @@ data/processed/**
 !data/labeling/tasks/*.json
 !data/labeling/tasks/*.jsonl
 
-# Models/artifacts
-models/
+# W&B local run cache
+wandb/
+
+# Local training artifacts
 artifacts/
+models/
 .DS_Store
+
+*.numbers
+data/labeling/review/*.csv
+data/labeling/review/*.jsonl
+!data/labeling/review/*.dvc
+
+data/rankings/**
+!data/rankings/
+!data/rankings/*.dvc

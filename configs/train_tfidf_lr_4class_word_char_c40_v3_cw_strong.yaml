@@ -1,0 +1,37 @@
+project_name: fanpulse-worldcup-mlops
+run_name: tfidf_lr_4class_word_char_c40_v3_cw_strong
+
+data_path: data/processed/fanpulse_dataset_v3.csv
+target_mode: 4class
+
+model_type: tfidf_logreg
+feature_mode: word_char
+word_ngram_min: 1
+word_ngram_max: 2
+char_ngram_min: 3
+char_ngram_max: 5
+max_features: 20000
+
+C: 4.0
+class_weight:
+  positive: 0.30
+  negative: 1.8
+  neutral: 2.5
+  not_about_player: 3.0
+
+max_iter: 2000
+
+test_size: 0.25
+random_state: 42
+
+holdout_source: manual_v2
+augmentation_sources:
+  - llm_assisted_human_reviewed
+
+use_sample_weight: true
+
+artifact_name: fanpulse-impression-classifier
+register_aliases:
+  - latest
+  - best
+  - production

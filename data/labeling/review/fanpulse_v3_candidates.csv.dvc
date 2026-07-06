@@ -1,0 +1,5 @@
+outs:
+- md5: 68bc1b7a4a2538a1c316e271515baa1d
+  size: 306528
+  hash: md5
+  path: fanpulse_v3_candidates.csv

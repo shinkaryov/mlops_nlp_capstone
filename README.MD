@@ -4,6 +4,7 @@ FanPulse World Cup is an end-to-end MLOps project for detecting **player-level f
 
 The goal is not just to classify a tweet as positive or negative. The project detects which football player is mentioned in a tweet, validates whether the tweet is actually about that player, assigns a fan impression label, and prepares the data for a future player hype/criticism leaderboard.
 
+For the full machine learning development cycle, see [README_ML.md](README_ML.md).
 ---
 
 ## Problem

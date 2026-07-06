@@ -53,6 +53,7 @@ wandb/
 # Local training artifacts
 artifacts/
 models/
+model_cache/
 .DS_Store
 
 *.numbers

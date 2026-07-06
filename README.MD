@@ -1,49 +1,124 @@
 # FanPulse World Cup MLOps
 
-FanPulse World Cup is an end-to-end MLOps project for detecting **player-level fan impression** from football tweets.
+FanPulse World Cup is an end-to-end MLOps project for building **player-level fan perception analytics** from football tweets.
 
-The goal is not just to classify a tweet as positive or negative. The project detects which football player is mentioned in a tweet, validates whether the tweet is actually about that player, assigns a fan impression label, and prepares the data for a future player hype/criticism leaderboard.
+The project detects football player mentions in World Cup tweets, classifies the fan impression toward each specific player, and aggregates predictions into **FanPulse Player Power Rankings**.
 
-For the full machine learning development cycle, see [README_ML.md](README_ML.md).
+This is not simple tweet-level sentiment analysis. The system works with tweet-player pairs:
+
+```text
+tweet text + candidate player → player-level fan impression
+```
+
+For the full machine learning development report, see:
+
+```text
+README_ML.md
+```
+
 ---
 
-## Problem
+## Project Goal
 
-During World Cup matches, football fans generate thousands of reactions on Twitter/X and other social platforms.
+During World Cup matches, fans generate thousands of reactions on Twitter/X.
 
-Sports media, fan communities, and fantasy football users often need a quick way to answer questions such as:
+The goal of this project is to answer questions such as:
 
 - Which players impressed fans the most?
 - Which players received the most criticism?
 - Which players generated the most discussion?
-- Are fans reacting positively or negatively to a specific player?
+- Which players had the strongest positive or negative fan signal?
+- How can we turn noisy football tweets into a player-level ranking?
 
-This project builds the data and MLOps foundation for a player-level fan perception analytics system.
+The final product is a **FanPulse Power Ranking**:
+
+```text
+World Cup players ranked by fan perception, not objective football performance.
+```
 
 ---
 
-## Project Objective
+## Why Player-Level Classification?
 
-The project implements the first stage of a full MLOps lifecycle:
+Global tweet sentiment is not enough.
+
+Example:
+
+```text
+Mbappe was electric, but Dembele killed every attack.
+```
+
+A normal sentiment model may classify the tweet as mixed or neutral.
+
+FanPulse needs player-level labels:
+
+```text
+Kylian Mbappé   → positive
+Ousmane Dembélé → negative
+```
+
+Therefore, the dataset is built as tweet-player pairs rather than tweet-level rows.
+
+---
+
+## Current Project Status
+
+Completed:
+
+- Raw World Cup tweet datasets collected.
+- Raw tweets unified into one English deduplicated dataset.
+- Player reference data prepared.
+- Safe and contextual player aliases created.
+- Tweet-player candidate pairs generated.
+- Label Studio annotation workflow implemented.
+- Manual datasets v1/v2 created and versioned.
+- LLM-assisted, human-reviewed dataset v3 created.
+- Model training pipeline implemented.
+- Experiments tracked with W&B.
+- Best model registered in W&B Model Registry.
+- FanPulse Player Power Rankings generated from model predictions.
+- Data and artifacts versioned with DVC/Git/W&B.
+
+Current production model:
+
+```text
+fanpulse-impression-classifier:production
+```
+
+Current ranking output:
+
+```text
+data/rankings/player_power_rankings_v1.csv
+```
+
+---
+
+## Project Lifecycle
 
 ```text
 raw football tweets
-→ unified English tweet dataset
-→ player mention matching
-→ Label Studio manual validation
-→ versioned labeled dataset
-→ future model training
-→ future inference API
-→ future monitoring and CI/CD
+→ tweet cleaning and unification
+→ player alias matching
+→ tweet-player candidate pairs
+→ manual Label Studio annotation
+→ dataset v1/v2
+→ first supervised models
+→ active sampling
+→ LLM-assisted pre-labeling
+→ human correction
+→ dataset v3
+→ augmented model training
+→ W&B experiment tracking
+→ W&B model registry
+→ full-pool inference
+→ FanPulse Player Power Rankings
 ```
-
-The current repository focuses on **Data Management / Labeling / Dataset Versioning**, which is the foundation for the next MLOps stages.
 
 ---
 
 ## Data Sources
 
-The project uses public football and FIFA World Cup 2022 tweet datasets, plus an elite players list.
+The project uses public football and FIFA World Cup 2022 tweet datasets, plus a player reference dataset.
 
 Raw tweet datasets:
 
@@ -55,267 +130,7 @@ Player reference dataset:
 
 - [World Cup 2022 Elite Players Image Dataset / List Of All Players Names](https://www.kaggle.com/datasets/peterkibuchi/world-cup-2022-elite-players-image-dataset?select=List+Of+All+Players+Names.csv)
 
-The raw files are not committed directly to Git because they can be large. They are versioned with DVC.
-
----
-
-## Current Data Files
-
-Raw tweet files are stored under:
-
-```text
-data/raw/tweets/
-```
-
-Expected raw files:
-
-```text
-data/raw/tweets/fifa_world_cup_2022_tweets.csv
-data/raw/tweets/tweets_football.csv
-data/raw/tweets/tweets1.xlsx
-data/raw/tweets/tweets2.xlsx
-data/raw/tweets/twtdata.com_tweets_by_hashtag_Fifa_Xd8b0u2i9n.csv
-```
-
-Reference files are stored under:
-
-```text
-data/reference/
-```
-
-Important reference files:
-
-```text
-data/reference/players.csv
-data/reference/players_curated_clean.csv
-data/reference/player_safe_aliases.csv
-data/reference/player_contextual_aliases.csv
-```
-
----
-
-## Data Lineage
-
-The project follows this data lineage:
-
-```text
-Raw football tweet files
-        ↓
-Unified English deduplicated tweets
-        ↓
-Player alias matching
-        ↓
-Candidate tweet-player pairs
-        ↓
-Balanced Label Studio task file
-        ↓
-Manual validation and impression labeling
-        ↓
-Label Studio export v1/v2
-        ↓
-Processed labeled dataset v1/v2
-        ↓
-Future model training dataset
-```
-
-Main generated files:
-
-```text
-data/interim/tweets_unified_english_dedup.csv
-data/interim/matched_tweets_long_for_manual_labeling.csv
-data/interim/matched_tweets_wide_for_manual_labeling.csv
-data/interim/player_mentions_long_only_keys.csv
-
-data/labeling/tasks/fanpulse_labeling_tasks_v1.json
-
-data/labeled/exports/label_studio_export_v1.json
-data/labeled/exports/label_studio_export_v2.json
-
-data/processed/fanpulse_dataset_v1.csv
-data/processed/fanpulse_dataset_v2.csv
-```
-
----
-
-## What is `fanpulse_labeling_tasks_v1.json`?
-
-`data/labeling/tasks/fanpulse_labeling_tasks_v1.json` is the file imported into Label Studio.
-
-It is **not** the final labeled dataset.
-
-It contains candidate examples to annotate. Each task contains:
-
-- tweet text;
-- candidate player;
-- player id;
-- position;
-- matched aliases;
-- match method;
-- engagement metadata;
-- source file.
-
-Example task structure:
-
-```json
-{
-  "text": "Bellingham is carrying England again. Unreal player.",
-  "candidate_player": "Jude Bellingham",
-  "player_id": "20",
-  "position": "Midfielder",
-  "matched_aliases": "bellingham",
-  "match_method": "safe_alias",
-  "likes": 120,
-  "retweets": 5,
-  "tweet_key": "id_123456789"
-}
-```
-
-The actual manual labels are created inside Label Studio and exported to:
-
-```text
-data/labeled/exports/label_studio_export_v1.json
-data/labeled/exports/label_studio_export_v2.json
-```
-
-The final training-ready datasets are:
-
-```text
-data/processed/fanpulse_dataset_v1.csv
-data/processed/fanpulse_dataset_v2.csv
-```
-
----
-
-## Labeling Task
-
-Tool used: **Label Studio**
-
-Each annotation task shows:
-
-- the tweet text;
-- a candidate player detected by alias matching;
-- metadata about how the candidate player was matched.
-
-The annotator must answer:
-
-1. Is this tweet actually about the candidate player?
-2. What is the fan impression toward this player?
-3. Optional: what is the reason for the impression?
-
----
-
-## Label Schema
-
-Main impression labels:
-
-```text
-strong_positive
-positive
-neutral
-negative
-strong_negative
-not_about_player
-```
-
-Additional validation label:
-
-```text
-is_about_player:
-- yes
-- no
-- unclear
-```
-
-Optional reason labels:
-
-```text
-performance
-goal_or_assist
-mistake
-hype
-comparison
-meme_or_joke
-news_context
-other
-```
-
----
-
-## Why Player-Level Labeling?
-
-Global sentiment analysis is not enough for this task.
-
-Example:
-
-```text
-"Mbappe was electric, but Dembele killed every attack."
-```
-
-A normal sentiment model may classify the whole tweet as mixed or neutral.
-
-But this project needs player-level labels:
-
-```text
-Kylian Mbappe  → positive
-Ousmane Dembele → negative
-```
-
-This is why the dataset is built as tweet-player pairs, not just tweet-level sentiment rows.
-
----
-
-## Player Matching Strategy
-
-The project uses deterministic player alias matching to generate candidate tweet-player pairs.
-
-There are two alias types:
-
-### Safe aliases
-
-Safe aliases are matched directly.
-
-Examples:
-
-```text
-messi → Lionel Messi
-ronaldo → Cristiano Ronaldo
-mbappe → Kylian Mbappe
-bellingham → Jude Bellingham
-```
-
-### Contextual aliases
-
-Contextual aliases are matched only if supporting context terms are present.
-
-Example:
-
-```text
-walker → Kyle Walker
-```
-
-This alias is accepted only if the tweet contains context such as:
-
-```text
-england
-man city
-city
-mbappe
-france
-```
-
-This reduces false positives.
-
-### Fuzzy matching
-
-Broad fuzzy matching is intentionally disabled by default because it can introduce noisy matches.
-
-Example of a risky false positive:
-
-```text
-cancel → Cancelo
-```
-
-For the current MVP, the project uses high-precision deterministic alias matching and manual validation in Label Studio.
+Large data files are not committed directly to Git. They are versioned with DVC.
 
 ---
 
@@ -325,16 +140,20 @@ For the current MVP, the project uses high-precision deterministic alias matchin
 .
 ├── .github/
 │   └── workflows/
+├── configs/
+│   └── train_*.yaml
 ├── data/
 │   ├── raw/
 │   │   └── tweets/
 │   ├── interim/
 │   ├── reference/
 │   ├── labeling/
+│   │   ├── review/
 │   │   └── tasks/
 │   ├── labeled/
 │   │   └── exports/
-│   └── processed/
+│   ├── processed/
+│   └── rankings/
 ├── docker/
 ├── labeling/
 │   └── label_studio_config.xml
@@ -347,14 +166,282 @@ For the current MVP, the project uses high-precision deterministic alias matchin
 │   │   ├── match_player_mentions.py
 │   │   ├── prepare_labeling_tasks.py
 │   │   └── build_processed_dataset.py
+│   ├── labeling/
+│   │   ├── sample_v3_candidates.py
+│   │   ├── llm_prelabel_v3.py
+│   │   └── build_dataset_v3.py
 │   ├── training/
+│   │   ├── train.py
+│   │   └── train_augmented.py
+│   ├── ranking/
+│   │   └── build_power_rankings.py
 │   ├── inference/
 │   └── monitoring/
 ├── docker-compose.yml
 ├── dvc.yaml
 ├── dvc.lock
 ├── requirements.txt
-└── README.MD
+├── README.MD
+└── README_ML.md
+```
+
+---
+
+## Main Components
+
+### 1. Data Pipeline
+
+The data pipeline prepares tweet-player pairs from raw football tweets.
+
+Main scripts:
+
+```text
+src/data/unify_raw_tweets.py
+src/data/match_player_mentions.py
+src/data/prepare_labeling_tasks.py
+src/data/build_processed_dataset.py
+```
+
+Main outputs:
+
+```text
+data/interim/tweets_unified_english_dedup.csv
+data/interim/matched_tweets_long_for_manual_labeling.csv
+data/interim/matched_tweets_wide_for_manual_labeling.csv
+data/interim/player_mentions_long_only_keys.csv
+data/labeling/tasks/fanpulse_labeling_tasks_v1.json
+data/processed/fanpulse_dataset_v1.csv
+data/processed/fanpulse_dataset_v2.csv
+```
+
+---
+
+### 2. Labeling Workflow
+
+Manual labeling was done with Label Studio.
+
+Label Studio task file:
+
+```text
+data/labeling/tasks/fanpulse_labeling_tasks_v1.json
+```
+
+Label Studio config:
+
+```text
+labeling/label_studio_config.xml
+```
+
+Manual exports:
+
+```text
+data/labeled/exports/label_studio_export_v1.json
+data/labeled/exports/label_studio_export_v2.json
+```
+
+The labeling task asks:
+
+```text
+1. Is this tweet actually about the candidate player?
+2. What is the fan impression toward this player?
+3. What is the reason for the impression?
+```
+
+Main labels:
+
+```text
+strong_positive
+positive
+neutral
+negative
+strong_negative
+not_about_player
+```
+
+---
+
+### 3. Dataset v3 Expansion
+
+Dataset v3 was created using an LLM-assisted, human-reviewed workflow.
+
+The process:
+
+```text
+active sampling from matched tweet-player pool
+→ LLM pre-labeling
+→ human correction
+→ clean corrected dataset v3
+```
+
+Important files:
+
+```text
+src/labeling/sample_v3_candidates.py
+src/labeling/llm_prelabel_v3.py
+src/labeling/build_dataset_v3.py
+data/processed/fanpulse_dataset_v3.csv
+```
+
+Dataset v3 summary:
+
+```text
+Rows: 997
+manual_v2 rows: 240
+llm_assisted_human_reviewed rows: 757
+```
+
+Full labeling audit and ML details are documented in:
+
+```text
+README_ML.md
+```
+
+---
+
+### 4. Model Training
+
+The production model is a 4-class player-level fan impression classifier.
+
+Target classes:
+
+```text
+positive
+neutral
+negative
+not_about_player
+```
+
+Training scripts:
+
+```text
+src/training/train.py
+src/training/train_augmented.py
+```
+
+Main production config:
+
+```text
+configs/train_tfidf_lr_4class_word_char_c40_v3_cw_strong.yaml
+```
+
+Production model:
+
+```text
+TF-IDF word + character n-grams
+LogisticRegression
+custom class weights
+dataset v3
+```
+
+Current best validation metrics:
+
+```text
+accuracy:          0.6000
+balanced_accuracy: 0.5310
+macro-F1:          0.5358
+weighted-F1:       0.5889
+```
+
+More details are in:
+
+```text
+README_ML.md
+```
+
+---
+
+### 5. Experiment Tracking and Model Registry
+
+Experiments are tracked with Weights & Biases.
+
+W&B project:
+
+```text
+fanpulse-worldcup-mlops
+```
+
+Each run logs:
+
+- hyperparameters;
+- dataset version;
+- model type;
+- target mode;
+- train/validation split metadata;
+- accuracy;
+- balanced accuracy;
+- macro-F1;
+- weighted-F1;
+- confusion matrix;
+- prediction distribution;
+- model artifacts.
+
+Registered model artifact:
+
+```text
+fanpulse-impression-classifier
+```
+
+Production aliases:
+
+```text
+latest
+best
+production
+```
+
+The production model can be loaded from W&B as:
+
+```text
+shinkaryovae-set-university/fanpulse-worldcup-mlops/fanpulse-impression-classifier:production
+```
+
+---
+
+### 6. Player Power Rankings
+
+The final product of the ML pipeline is a player-level ranking.
+
+Ranking script:
+
+```text
+src/ranking/build_power_rankings.py
+```
+
+Ranking outputs:
+
+```text
+data/rankings/fanpulse_pair_predictions_v1.csv
+data/rankings/player_power_rankings_v1.csv
+data/rankings/player_leaderboards_v1.json
+reports/player_power_rankings_top20.csv
+```
+
+The ranking combines:
+
+```text
+model sentiment probabilities
+about-player confidence
+mention volume
+tweet engagement
+Bayesian shrinkage
+```
+
+Current top players:
+
+```text
+1. Kylian Mbappé
+2. Lionel Messi
+3. Neymar
+4. Jude Bellingham
+5. Olivier Giroud
+```
+
+This ranking represents fan perception in the collected tweet data, not objective player performance.
+
+Full ranking methodology is documented in:
+
+```text
+README_ML.md
 ```
 
 ---
@@ -368,7 +455,7 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-Install project dependencies:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -384,6 +471,10 @@ tqdm
 rapidfuzz
 lingua-language-detector
 scikit-learn
+joblib
+pyyaml
+wandb
+openai
 dvc
 dvc-azure
 ```
@@ -394,18 +485,19 @@ Label Studio is run through Docker Compose, so it does not need to be installed 
 
 ## DVC Dataset Versioning
 
-DVC is used to version large data files and generated datasets.
+DVC is used to version large files and generated datasets.
 
 Git stores:
 
 - source code;
+- configs;
 - DVC metadata;
 - lightweight reference files;
 - Label Studio config;
 - small reports;
-- README.
+- README files.
 
-Git does **not** store large raw/interim/processed datasets directly.
+Git does not store large raw/interim/processed datasets directly.
 
 Large files are restored through DVC.
 
@@ -446,7 +538,7 @@ Push updated DVC data:
 dvc push
 ```
 
-Do not commit Azure keys, connection strings, or secrets to Git.
+Do not commit Azure keys, connection strings, API keys, or secrets to Git.
 
 ---
 
@@ -458,33 +550,28 @@ Manual/input data is tracked with `.dvc` files:
 data/raw/tweets.dvc
 data/labeled/exports/label_studio_export_v1.json.dvc
 data/labeled/exports/label_studio_export_v2.json.dvc
+data/processed/fanpulse_dataset_v3.csv.dvc
+data/rankings/*.dvc
 ```
 
-Generated data is produced through `dvc.yaml` stages and tracked in `dvc.lock`:
+Generated data is also reproducible through pipeline scripts and DVC metadata:
 
 ```text
-data/interim/*
-data/processed/*
-```
-
-This separation keeps the pipeline reproducible:
-
-```text
-manual inputs → DVC .dvc pointers
-generated outputs → dvc.yaml / dvc.lock
+dvc.yaml
+dvc.lock
 ```
 
 ---
 
 ## Reproduce Data Pipeline
 
-Restore DVC-tracked inputs:
+Restore DVC-tracked data:
 
 ```bash
 dvc pull
 ```
 
-Run the full DVC pipeline:
+Run the DVC pipeline:
 
 ```bash
 dvc repro
@@ -506,19 +593,13 @@ dvc status
 
 ## Run Data Pipeline Manually
 
-### 1. Unify raw tweet datasets
+### 1. Unify raw tweets
 
 ```bash
-python src/data/unify_raw_tweets.py \
+PYTHONPATH=. python src/data/unify_raw_tweets.py \
   --raw-dir data/raw/tweets \
   --output data/interim/tweets_unified_english_dedup.csv \
   --detect-language-for-unknown
-```
-
-Output:
-
-```text
-data/interim/tweets_unified_english_dedup.csv
 ```
 
 ---
@@ -526,7 +607,7 @@ data/interim/tweets_unified_english_dedup.csv
 ### 2. Match player mentions
 
 ```bash
-python src/data/match_player_mentions.py \
+PYTHONPATH=. python src/data/match_player_mentions.py \
   --tweets data/interim/tweets_unified_english_dedup.csv \
   --players data/reference/players.csv \
   --interim-dir data/interim \
@@ -548,18 +629,10 @@ reports/alias_match_summary.csv
 ### 3. Prepare Label Studio tasks
 
 ```bash
-python src/data/prepare_labeling_tasks.py \
+PYTHONPATH=. python src/data/prepare_labeling_tasks.py \
   --input data/interim/matched_tweets_long_for_manual_labeling.csv \
   --output data/labeling/tasks/fanpulse_labeling_tasks_v1.json
 ```
-
-Output:
-
-```text
-data/labeling/tasks/fanpulse_labeling_tasks_v1.json
-```
-
-This file is imported into Label Studio.
 
 ---
 
@@ -568,7 +641,7 @@ This file is imported into Label Studio.
 Dataset v1:
 
 ```bash
-python src/data/build_processed_dataset.py \
+PYTHONPATH=. python src/data/build_processed_dataset.py \
   --input data/labeled/exports/label_studio_export_v1.json \
   --output data/processed/fanpulse_dataset_v1.csv
 ```
@@ -576,16 +649,9 @@ python src/data/build_processed_dataset.py \
 Dataset v2:
 
 ```bash
-python src/data/build_processed_dataset.py \
+PYTHONPATH=. python src/data/build_processed_dataset.py \
   --input data/labeled/exports/label_studio_export_v2.json \
   --output data/processed/fanpulse_dataset_v2.csv
-```
-
-Outputs:
-
-```text
-data/processed/fanpulse_dataset_v1.csv
-data/processed/fanpulse_dataset_v2.csv
 ```
 
 ---
@@ -598,13 +664,11 @@ Start Label Studio:
 docker compose up -d label-studio
 ```
 
-Open in browser:
+Open:
 
 ```text
 http://localhost:8080
 ```
-
-Create a new Label Studio project.
 
 Use labeling config:
 
@@ -618,104 +682,140 @@ Import task file:
 data/labeling/tasks/fanpulse_labeling_tasks_v1.json
 ```
 
-After manual labeling, export annotations as JSON and save them to:
+After annotation, export JSON and save it under:
 
 ```text
-data/labeled/exports/label_studio_export_v1.json
-data/labeled/exports/label_studio_export_v2.json
-```
-
-Then rebuild processed datasets:
-
-```bash
-python src/data/build_processed_dataset.py \
-  --input data/labeled/exports/label_studio_export_v1.json \
-  --output data/processed/fanpulse_dataset_v1.csv
+data/labeled/exports/
 ```
 
 ---
 
-## Dataset Versions
+## Train Model
 
-The repository contains two dataset versions:
+Login to W&B:
 
-```text
-dataset-v1 — initial manually labeled dataset
-dataset-v2 — extended manually labeled dataset
+```bash
+wandb login
 ```
 
-List tags:
+Train the current production model:
+
+```bash
+PYTHONPATH=. python src/training/train_augmented.py \
+  --config configs/train_tfidf_lr_4class_word_char_c40_v3_cw_strong.yaml
+```
+
+Train the earlier v2 baseline:
+
+```bash
+PYTHONPATH=. python src/training/train.py \
+  --config configs/train_tfidf_lr_4class_word_char_c20.yaml
+```
+
+Model artifacts are saved locally under:
+
+```text
+artifacts/models/
+```
+
+and logged to W&B.
+
+Local artifacts are ignored by Git.
+
+---
+
+## Build Player Power Rankings
+
+Using local model artifact:
+
+```bash
+PYTHONPATH=. python src/ranking/build_power_rankings.py \
+  --input data/interim/matched_tweets_long_for_manual_labeling.csv \
+  --model-path artifacts/models/tfidf_lr_4class_word_char_c40_v3_cw_strong/model.joblib \
+  --min-effective-mentions 20 \
+  --prior-strength 30 \
+  --top-n 20
+```
+
+Using W&B production artifact:
+
+```bash
+PYTHONPATH=. python src/ranking/build_power_rankings.py \
+  --input data/interim/matched_tweets_long_for_manual_labeling.csv \
+  --wandb-artifact shinkaryovae-set-university/fanpulse-worldcup-mlops/fanpulse-impression-classifier:production \
+  --min-effective-mentions 20 \
+  --prior-strength 30 \
+  --top-n 20
+```
+
+---
+
+## Dataset and Model Versions
+
+Git/DVC tags:
+
+```text
+dataset-v1
+dataset-v2
+dataset-v3
+hw1-final
+```
+
+Check tags:
 
 ```bash
 git tag
 ```
 
-Checkout dataset v1:
-
-```bash
-git checkout dataset-v1
-dvc checkout
-```
-
-Checkout dataset v2:
+Restore a dataset version:
 
 ```bash
 git checkout dataset-v2
 dvc checkout
 ```
 
----
+Restore latest data:
 
-## Current Status
-
-Completed:
-
-- Raw football tweet files collected.
-- Raw tweet datasets unified into one English deduplicated dataset.
-- Curated player list prepared.
-- Safe and contextual player aliases generated.
-- Candidate tweet-player pairs generated.
-- Balanced Label Studio task file prepared.
-- Label Studio labeling config created.
-- Manual Label Studio exports saved as v1/v2.
-- Processed labeled datasets created as v1/v2.
-- Dataset versions are tracked with Git tags and DVC.
+```bash
+git checkout <branch-name>
+dvc pull
+dvc checkout
+```
 
 ---
 
 ## Reports
 
-The project generates lightweight reports for data quality checks:
+Generated reports:
 
 ```text
 reports/player_match_summary.csv
 reports/alias_match_summary.csv
+reports/player_power_rankings_top20.csv
 ```
 
 These reports help inspect:
 
-- most frequently matched players;
-- aliases that produced matches;
-- example tweets;
-- potential matching noise;
-- distribution of matched players.
+- matched player distribution;
+- alias quality;
+- player examples;
+- possible matching noise;
+- top FanPulse ranking results.
 
 ---
 
-## Demo Checklist for Data Management Homework
+## Demo Checklist
 
-A short demo should show:
+### Data / Labeling
 
-1. Repository structure.
-2. Raw files tracked by DVC.
-3. Player reference files and alias tables.
-4. Data pipeline scripts in `src/data`.
-5. Label Studio project.
-6. One example of manual annotation.
-7. Label Studio export file.
-8. Processed dataset v1/v2.
-9. Git tags `dataset-v1` and `dataset-v2`.
-10. DVC commands:
+- Repository structure.
+- Raw files tracked by DVC.
+- Player reference files and alias tables.
+- Data pipeline scripts in `src/data`.
+- Label Studio config.
+- Example Label Studio annotation.
+- Processed dataset v1/v2/v3.
+- DVC commands:
 
 ```bash
 dvc status
@@ -724,23 +824,38 @@ dvc remote list
 git tag
 ```
 
+### Model Training
+
+- Training configs in `configs/`.
+- Training scripts in `src/training/`.
+- W&B project with multiple runs.
+- Metrics comparison.
+- Confusion matrix.
+- Prediction distribution.
+- Registered W&B model artifact.
+
+### Ranking Product
+
+- Ranking script in `src/ranking/`.
+- `player_power_rankings_v1.csv`.
+- `player_leaderboards_v1.json`.
+- Top 20 player ranking report.
+
 ---
 
 ## Future MLOps Steps
 
-The next stages of the project will extend this data layer into a full MLOps system.
+Planned next stages:
 
-Planned stages:
-
-- Train a player-level fan impression classifier.
-- Track experiments with W&B or MLflow.
-- Register the best model in a model registry.
-- Serve the model through FastAPI.
-- Add `/predict`, `/leaderboard`, `/health`, and `/metrics` endpoints.
-- Monitor latency and prediction volume with Prometheus and Grafana.
-- Add data drift checks with Evidently.
-- Add GitHub Actions for CI/CD.
-- Deploy the inference service to Azure Container Apps.
+- Serve the production model through FastAPI.
+- Add `/predict`, `/rankings`, `/health`, and `/metrics` endpoints.
+- Load production model from W&B Model Registry.
+- Add Prometheus metrics.
+- Add Grafana dashboard.
+- Add data and prediction drift checks.
+- Add GitHub Actions CI/CD.
+- Containerize the inference service.
+- Deploy the service to Azure Container Apps or another cloud runtime.
 
 ---
 
@@ -751,7 +866,7 @@ Future `/predict` request:
 ```json
 {
   "text": "Bellingham is carrying England again. Unreal player.",
-  "likes": 120
+  "candidate_player": "Jude Bellingham"
 }
 ```
 
@@ -759,36 +874,34 @@ Expected response:
 
 ```json
 {
-  "mentions": [
-    {
-      "player": "Jude Bellingham",
-      "impression": "strong_positive",
-      "confidence": 0.89,
-      "fan_impression_score": 10.43
-    }
-  ],
+  "candidate_player": "Jude Bellingham",
+  "prediction": "positive",
+  "confidence": 0.89,
+  "probabilities": {
+    "positive": 0.89,
+    "neutral": 0.06,
+    "negative": 0.03,
+    "not_about_player": 0.02
+  },
   "model_version": "fanpulse-impression-classifier:production"
 }
 ```
 
-Future `/leaderboard` response:
+Future `/rankings` response:
 
 ```json
 {
-  "top_impressed": [
+  "ranking_type": "fanpulse_power",
+  "players": [
     {
-      "player": "Jude Bellingham",
-      "score": 87.4,
-      "mentions": 42
+      "rank": 1,
+      "player": "Kylian Mbappé",
+      "power_score": 78.31,
+      "effective_mentions": 10006.71,
+      "avg_sentiment": 0.468
     }
   ],
-  "most_criticized": [
-    {
-      "player": "Kylian Mbappe",
-      "score": -35.2,
-      "mentions": 18
-    }
-  ]
+  "model_version": "fanpulse-impression-classifier:production"
 }
 ```
 

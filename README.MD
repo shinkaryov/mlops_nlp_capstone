@@ -747,6 +747,155 @@ PYTHONPATH=. python src/ranking/build_power_rankings.py \
   --prior-strength 30 \
   --top-n 20
 ```
+---
+
+## Inference API
+
+The project includes a FastAPI inference service for serving the production FanPulse model.
+
+The service loads the model from W&B Model Registry using the production alias:
+
+```text
+shinkaryovae-set-university/fanpulse-worldcup-mlops/fanpulse-impression-classifier:production
+```
+
+The model is not committed to the repository. It is downloaded from W&B at service startup and cached locally.
+
+### Inference Endpoints
+
+```text
+GET  /health
+GET  /model-info
+POST /predict
+POST /predict-batch
+```
+
+### Environment Variables
+
+Create a local `.env` file:
+
+```bash
+cp .env.example .env
+```
+
+Set your W&B API key:
+
+```env
+WANDB_API_KEY=your_wandb_api_key_here
+WANDB_ENTITY=shinkaryovae-set-university
+WANDB_PROJECT=fanpulse-worldcup-mlops
+WANDB_MODEL_ARTIFACT=shinkaryovae-set-university/fanpulse-worldcup-mlops/fanpulse-impression-classifier:production
+MODEL_CACHE_DIR=/app/model_cache
+```
+
+Do not commit `.env`.
+
+### Run Locally Without Docker
+
+```bash
+export $(cat .env | xargs)
+
+PYTHONPATH=. uvicorn src.inference.app:app \
+  --reload \
+  --host 0.0.0.0 \
+  --port 8000
+```
+
+Health check:
+
+```bash
+curl -s http://localhost:8000/health | python -m json.tool
+```
+
+### Run With Docker Compose
+
+Build and start the inference service:
+
+```bash
+docker compose up --build inference-api
+```
+
+Health check:
+
+```bash
+curl -s http://localhost:8000/health | python -m json.tool
+```
+
+Expected response:
+
+```json
+{
+  "status": "ok",
+  "model_loaded": true,
+  "model_version": "shinkaryovae-set-university/fanpulse-worldcup-mlops/fanpulse-impression-classifier:production"
+}
+```
+
+### Single Prediction Example
+
+```bash
+curl -s -X POST "http://localhost:8000/predict" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "text": "Mbappe scored two goals in the World Cup final. Unreal player.",
+    "candidate_player": "Kylian Mbappé",
+    "position": "Forward",
+    "likes": 120,
+    "retweets": 10
+  }' | python -m json.tool
+```
+
+Example response:
+
+```json
+{
+  "candidate_player": "Kylian Mbappé",
+  "prediction": "positive",
+  "confidence": 0.74,
+  "probabilities": {
+    "negative": 0.08,
+    "neutral": 0.10,
+    "not_about_player": 0.08,
+    "positive": 0.74
+  },
+  "aboutness": 0.92,
+  "sentiment_signal": 0.66,
+  "model_version": "shinkaryovae-set-university/fanpulse-worldcup-mlops/fanpulse-impression-classifier:production",
+  "latency_ms": 3.21
+}
+```
+
+Actual probabilities may differ depending on the registered model version.
+
+### Batch Prediction Example
+
+```bash
+curl -s -X POST "http://localhost:8000/predict-batch" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "examples": [
+      {
+        "text": "Bellingham is carrying England. Unreal player.",
+        "candidate_player": "Jude Bellingham",
+        "position": "Midfielder"
+      },
+      {
+        "text": "Kane missed the penalty and England are out.",
+        "candidate_player": "Harry Kane",
+        "position": "Forward"
+      }
+    ]
+  }' | python -m json.tool
+```
+
+### API Documentation
+
+When the service is running, FastAPI documentation is available at:
+
+```text
+http://localhost:8000/docs
+```
+
 
 ---
 
@@ -845,65 +994,13 @@ git tag
 
 ## Future MLOps Steps
 
-Planned next stages:
+Next planned stage:
 
-- Serve the production model through FastAPI.
-- Add `/predict`, `/rankings`, `/health`, and `/metrics` endpoints.
-- Load production model from W&B Model Registry.
-- Add Prometheus metrics.
+- Add Prometheus metrics to the inference API.
+- Track prediction count per minute.
+- Track average request latency.
 - Add Grafana dashboard.
-- Add data and prediction drift checks.
-- Add GitHub Actions CI/CD.
-- Containerize the inference service.
-- Deploy the service to Azure Container Apps or another cloud runtime.
-
----
-
-## Planned API Example
-
-Future `/predict` request:
-
-```json
-{
-  "text": "Bellingham is carrying England again. Unreal player.",
-  "candidate_player": "Jude Bellingham"
-}
-```
-
-Expected response:
-
-```json
-{
-  "candidate_player": "Jude Bellingham",
-  "prediction": "positive",
-  "confidence": 0.89,
-  "probabilities": {
-    "positive": 0.89,
-    "neutral": 0.06,
-    "negative": 0.03,
-    "not_about_player": 0.02
-  },
-  "model_version": "fanpulse-impression-classifier:production"
-}
-```
-
-Future `/rankings` response:
-
-```json
-{
-  "ranking_type": "fanpulse_power",
-  "players": [
-    {
-      "rank": 1,
-      "player": "Kylian Mbappé",
-      "power_score": 78.31,
-      "effective_mentions": 10006.71,
-      "avg_sentiment": 0.468
-    }
-  ],
-  "model_version": "fanpulse-impression-classifier:production"
-}
-```
+- Optionally add Evidently drift reports.
 
 ---
 

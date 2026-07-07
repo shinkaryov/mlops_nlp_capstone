@@ -1005,15 +1005,144 @@ git tag
 
 ---
 
-## Future MLOps Steps
+---
 
-Next planned stage:
+## Monitoring and Observability
 
-- Add Prometheus metrics to the inference API.
-- Track prediction count per minute.
-- Track average request latency.
-- Add Grafana dashboard.
-- Optionally add Evidently drift reports.
+The project includes local monitoring for the FastAPI inference service using Prometheus and Grafana.
+
+The inference API exposes Prometheus metrics at:
+
+```text
+GET /metrics
+```
+
+Prometheus scrapes the inference service every 5 seconds, and Grafana visualizes the collected metrics.
+
+### Monitored Metrics
+
+The service exposes the following custom metrics:
+
+```text
+fanpulse_predictions_total
+fanpulse_prediction_latency_seconds
+fanpulse_prediction_errors_total
+fanpulse_http_requests_total
+fanpulse_http_request_latency_seconds
+fanpulse_model_loaded
+fanpulse_model_info
+```
+
+The Grafana dashboard shows:
+
+- predictions per minute;
+- average prediction latency;
+- p95 prediction latency;
+- predictions by class;
+- total predictions;
+- model loaded status;
+- prediction errors.
+
+### Run Monitoring Stack
+
+Start the inference API, Prometheus, and Grafana:
+
+```bash
+docker compose up --build inference-api prometheus grafana
+```
+
+Services:
+
+```text
+Inference API: http://localhost:8000
+Prometheus:    http://localhost:9090
+Grafana:       http://localhost:3000
+```
+
+Grafana credentials:
+
+```text
+username: admin
+password: admin
+```
+
+### Check Metrics Endpoint
+
+```bash
+curl -s http://localhost:8000/metrics | grep fanpulse
+```
+
+### Generate Demo Traffic
+
+```bash
+N=50 ./scripts/send_demo_requests.sh
+```
+
+### Prometheus
+
+Open:
+
+```text
+http://localhost:9090
+```
+
+Check:
+
+```text
+Status → Targets
+```
+
+The `fanpulse-inference-api` target should be `UP`.
+
+Useful Prometheus queries:
+
+```promql
+sum(increase(fanpulse_predictions_total[1m]))
+```
+
+```promql
+1000 * sum(rate(fanpulse_prediction_latency_seconds_sum[1m])) / sum(rate(fanpulse_prediction_latency_seconds_count[1m]))
+```
+
+```promql
+1000 * histogram_quantile(0.95, sum(rate(fanpulse_prediction_latency_seconds_bucket[5m])) by (le))
+```
+
+```promql
+sum(increase(fanpulse_predictions_total[5m])) by (prediction)
+```
+
+### Grafana Dashboard
+
+Open:
+
+```text
+http://localhost:3000
+```
+
+Go to:
+
+```text
+Dashboards → FanPulse → FanPulse Inference Monitoring
+```
+
+The dashboard is provisioned from:
+
+```text
+monitoring/grafana/dashboards/fanpulse-inference-dashboard.json
+```
+
+Datasource provisioning:
+
+```text
+monitoring/grafana/provisioning/datasources/prometheus.yml
+```
+
+Dashboard provisioning:
+
+```text
+monitoring/grafana/provisioning/dashboards/dashboard.yml
+```
 
 ---
 

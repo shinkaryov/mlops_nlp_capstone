@@ -778,15 +778,28 @@ Create a local `.env` file:
 cp .env.example .env
 ```
 
-Set your W&B API key:
+Set your W&B API key and model artifact reference:
 
 ```env
 WANDB_API_KEY=your_wandb_api_key_here
 WANDB_ENTITY=shinkaryovae-set-university
 WANDB_PROJECT=fanpulse-worldcup-mlops
 WANDB_MODEL_ARTIFACT=shinkaryovae-set-university/fanpulse-worldcup-mlops/fanpulse-impression-classifier:production
+```
+
+For local non-Docker execution, use:
+
+```env
+MODEL_CACHE_DIR=./model_cache
+```
+
+For Docker execution, `docker-compose.yml` overrides this value with:
+
+```env
 MODEL_CACHE_DIR=/app/model_cache
 ```
+
+The model is downloaded from W&B Model Registry at service startup and cached in this directory.
 
 Do not commit `.env`.
 
